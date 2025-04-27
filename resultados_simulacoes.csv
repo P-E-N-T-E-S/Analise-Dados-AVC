@@ -1,0 +1,2521 @@
+simulacao,coluna,teste,onde,resultado
+1,age,shapiro,amostra_1,False
+1,age,shapiro,amostra_2,False
+1,age,shapiro,amostra_3,False
+1,bmi,shapiro,amostra_1,False
+1,bmi,shapiro,amostra_2,False
+1,bmi,shapiro,amostra_3,False
+1,systolic_bp,shapiro,amostra_1,False
+1,systolic_bp,shapiro,amostra_2,False
+1,systolic_bp,shapiro,amostra_3,False
+1,cholesterol_total,shapiro,amostra_1,False
+1,cholesterol_total,shapiro,amostra_2,False
+1,cholesterol_total,shapiro,amostra_3,False
+1,mmse,shapiro,amostra_1,False
+1,mmse,shapiro,amostra_2,False
+1,mmse,shapiro,amostra_3,False
+1,adl,shapiro,amostra_1,False
+1,adl,shapiro,amostra_2,False
+1,adl,shapiro,amostra_3,False
+1,age,kruskal,amostra_1_vs_amostra_2,True
+1,age,kruskal,amostra_1_vs_amostra_3,True
+1,age,kruskal,amostra_2_vs_amostra_3,True
+1,bmi,kruskal,amostra_1_vs_amostra_2,True
+1,bmi,kruskal,amostra_1_vs_amostra_3,True
+1,bmi,kruskal,amostra_2_vs_amostra_3,True
+1,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+1,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+1,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+1,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+1,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+1,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+1,mmse,kruskal,amostra_1_vs_amostra_2,True
+1,mmse,kruskal,amostra_1_vs_amostra_3,True
+1,mmse,kruskal,amostra_2_vs_amostra_3,True
+1,adl,kruskal,amostra_1_vs_amostra_2,True
+1,adl,kruskal,amostra_1_vs_amostra_3,True
+1,adl,kruskal,amostra_2_vs_amostra_3,True
+1,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+1,age,pearson,amostra_2,"[0, 0, 1, 1, 1, 0]"
+1,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 0]"
+1,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+1,bmi,pearson,amostra_2,"[0, 0, 1, 1, 1, 1]"
+1,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+1,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+1,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+1,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+1,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+1,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+1,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+1,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+1,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+1,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+1,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+1,adl,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+1,adl,pearson,amostra_3,"[0, 1, 1, 1, 1, 0]"
+1,age,shapiro,validacao,False
+1,bmi,shapiro,validacao,False
+1,systolic_bp,shapiro,validacao,False
+1,cholesterol_total,shapiro,validacao,False
+1,mmse,shapiro,validacao,False
+1,adl,shapiro,validacao,False
+1,age,kruskal,validacao_vs_amostra_1,True
+1,age,kruskal,validacao_vs_amostra_2,True
+1,age,kruskal,validacao_vs_amostra_3,True
+1,bmi,kruskal,validacao_vs_amostra_1,True
+1,bmi,kruskal,validacao_vs_amostra_2,True
+1,bmi,kruskal,validacao_vs_amostra_3,True
+1,systolic_bp,kruskal,validacao_vs_amostra_1,True
+1,systolic_bp,kruskal,validacao_vs_amostra_2,False
+1,systolic_bp,kruskal,validacao_vs_amostra_3,True
+1,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+1,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+1,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+1,mmse,kruskal,validacao_vs_amostra_1,True
+1,mmse,kruskal,validacao_vs_amostra_2,True
+1,mmse,kruskal,validacao_vs_amostra_3,True
+1,adl,kruskal,validacao_vs_amostra_1,True
+1,adl,kruskal,validacao_vs_amostra_2,True
+1,adl,kruskal,validacao_vs_amostra_3,True
+1,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+1,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+1,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 0]"
+1,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+1,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+1,adl,pearson,validacao,"[1, 1, 0, 1, 1, 0]"
+2,age,shapiro,amostra_1,False
+2,age,shapiro,amostra_2,False
+2,age,shapiro,amostra_3,False
+2,bmi,shapiro,amostra_1,False
+2,bmi,shapiro,amostra_2,False
+2,bmi,shapiro,amostra_3,False
+2,systolic_bp,shapiro,amostra_1,False
+2,systolic_bp,shapiro,amostra_2,False
+2,systolic_bp,shapiro,amostra_3,False
+2,cholesterol_total,shapiro,amostra_1,False
+2,cholesterol_total,shapiro,amostra_2,False
+2,cholesterol_total,shapiro,amostra_3,False
+2,mmse,shapiro,amostra_1,False
+2,mmse,shapiro,amostra_2,False
+2,mmse,shapiro,amostra_3,False
+2,adl,shapiro,amostra_1,False
+2,adl,shapiro,amostra_2,False
+2,adl,shapiro,amostra_3,False
+2,age,kruskal,amostra_1_vs_amostra_2,True
+2,age,kruskal,amostra_1_vs_amostra_3,True
+2,age,kruskal,amostra_2_vs_amostra_3,True
+2,bmi,kruskal,amostra_1_vs_amostra_2,True
+2,bmi,kruskal,amostra_1_vs_amostra_3,True
+2,bmi,kruskal,amostra_2_vs_amostra_3,True
+2,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+2,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+2,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+2,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+2,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+2,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+2,mmse,kruskal,amostra_1_vs_amostra_2,True
+2,mmse,kruskal,amostra_1_vs_amostra_3,True
+2,mmse,kruskal,amostra_2_vs_amostra_3,True
+2,adl,kruskal,amostra_1_vs_amostra_2,True
+2,adl,kruskal,amostra_1_vs_amostra_3,True
+2,adl,kruskal,amostra_2_vs_amostra_3,True
+2,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+2,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+2,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+2,bmi,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+2,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+2,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+2,systolic_bp,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+2,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+2,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+2,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+2,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+2,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+2,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+2,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+2,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+2,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+2,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+2,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+2,age,shapiro,validacao,False
+2,bmi,shapiro,validacao,False
+2,systolic_bp,shapiro,validacao,False
+2,cholesterol_total,shapiro,validacao,False
+2,mmse,shapiro,validacao,False
+2,adl,shapiro,validacao,False
+2,age,kruskal,validacao_vs_amostra_1,False
+2,age,kruskal,validacao_vs_amostra_2,True
+2,age,kruskal,validacao_vs_amostra_3,True
+2,bmi,kruskal,validacao_vs_amostra_1,False
+2,bmi,kruskal,validacao_vs_amostra_2,True
+2,bmi,kruskal,validacao_vs_amostra_3,True
+2,systolic_bp,kruskal,validacao_vs_amostra_1,True
+2,systolic_bp,kruskal,validacao_vs_amostra_2,True
+2,systolic_bp,kruskal,validacao_vs_amostra_3,True
+2,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+2,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+2,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+2,mmse,kruskal,validacao_vs_amostra_1,True
+2,mmse,kruskal,validacao_vs_amostra_2,True
+2,mmse,kruskal,validacao_vs_amostra_3,True
+2,adl,kruskal,validacao_vs_amostra_1,True
+2,adl,kruskal,validacao_vs_amostra_2,True
+2,adl,kruskal,validacao_vs_amostra_3,True
+2,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+2,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+2,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+2,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+2,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+2,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+3,age,shapiro,amostra_1,False
+3,age,shapiro,amostra_2,False
+3,age,shapiro,amostra_3,False
+3,bmi,shapiro,amostra_1,False
+3,bmi,shapiro,amostra_2,False
+3,bmi,shapiro,amostra_3,False
+3,systolic_bp,shapiro,amostra_1,False
+3,systolic_bp,shapiro,amostra_2,False
+3,systolic_bp,shapiro,amostra_3,False
+3,cholesterol_total,shapiro,amostra_1,False
+3,cholesterol_total,shapiro,amostra_2,False
+3,cholesterol_total,shapiro,amostra_3,False
+3,mmse,shapiro,amostra_1,False
+3,mmse,shapiro,amostra_2,False
+3,mmse,shapiro,amostra_3,False
+3,adl,shapiro,amostra_1,False
+3,adl,shapiro,amostra_2,False
+3,adl,shapiro,amostra_3,False
+3,age,kruskal,amostra_1_vs_amostra_2,True
+3,age,kruskal,amostra_1_vs_amostra_3,True
+3,age,kruskal,amostra_2_vs_amostra_3,True
+3,bmi,kruskal,amostra_1_vs_amostra_2,True
+3,bmi,kruskal,amostra_1_vs_amostra_3,True
+3,bmi,kruskal,amostra_2_vs_amostra_3,True
+3,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+3,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+3,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+3,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+3,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+3,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+3,mmse,kruskal,amostra_1_vs_amostra_2,True
+3,mmse,kruskal,amostra_1_vs_amostra_3,True
+3,mmse,kruskal,amostra_2_vs_amostra_3,True
+3,adl,kruskal,amostra_1_vs_amostra_2,True
+3,adl,kruskal,amostra_1_vs_amostra_3,True
+3,adl,kruskal,amostra_2_vs_amostra_3,True
+3,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+3,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+3,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+3,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+3,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+3,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+3,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+3,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+3,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+3,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+3,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+3,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+3,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+3,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 0]"
+3,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+3,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+3,adl,pearson,amostra_2,"[1, 1, 1, 1, 0, 0]"
+3,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+3,age,shapiro,validacao,False
+3,bmi,shapiro,validacao,False
+3,systolic_bp,shapiro,validacao,False
+3,cholesterol_total,shapiro,validacao,False
+3,mmse,shapiro,validacao,False
+3,adl,shapiro,validacao,False
+3,age,kruskal,validacao_vs_amostra_1,True
+3,age,kruskal,validacao_vs_amostra_2,True
+3,age,kruskal,validacao_vs_amostra_3,True
+3,bmi,kruskal,validacao_vs_amostra_1,True
+3,bmi,kruskal,validacao_vs_amostra_2,True
+3,bmi,kruskal,validacao_vs_amostra_3,True
+3,systolic_bp,kruskal,validacao_vs_amostra_1,True
+3,systolic_bp,kruskal,validacao_vs_amostra_2,True
+3,systolic_bp,kruskal,validacao_vs_amostra_3,True
+3,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+3,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+3,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+3,mmse,kruskal,validacao_vs_amostra_1,False
+3,mmse,kruskal,validacao_vs_amostra_2,False
+3,mmse,kruskal,validacao_vs_amostra_3,False
+3,adl,kruskal,validacao_vs_amostra_1,True
+3,adl,kruskal,validacao_vs_amostra_2,True
+3,adl,kruskal,validacao_vs_amostra_3,True
+3,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+3,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+3,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+3,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+3,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+3,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+4,age,shapiro,amostra_1,False
+4,age,shapiro,amostra_2,False
+4,age,shapiro,amostra_3,False
+4,bmi,shapiro,amostra_1,False
+4,bmi,shapiro,amostra_2,False
+4,bmi,shapiro,amostra_3,False
+4,systolic_bp,shapiro,amostra_1,False
+4,systolic_bp,shapiro,amostra_2,False
+4,systolic_bp,shapiro,amostra_3,False
+4,cholesterol_total,shapiro,amostra_1,False
+4,cholesterol_total,shapiro,amostra_2,False
+4,cholesterol_total,shapiro,amostra_3,False
+4,mmse,shapiro,amostra_1,False
+4,mmse,shapiro,amostra_2,False
+4,mmse,shapiro,amostra_3,False
+4,adl,shapiro,amostra_1,False
+4,adl,shapiro,amostra_2,False
+4,adl,shapiro,amostra_3,False
+4,age,kruskal,amostra_1_vs_amostra_2,True
+4,age,kruskal,amostra_1_vs_amostra_3,True
+4,age,kruskal,amostra_2_vs_amostra_3,True
+4,bmi,kruskal,amostra_1_vs_amostra_2,True
+4,bmi,kruskal,amostra_1_vs_amostra_3,True
+4,bmi,kruskal,amostra_2_vs_amostra_3,True
+4,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+4,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+4,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+4,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+4,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+4,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+4,mmse,kruskal,amostra_1_vs_amostra_2,True
+4,mmse,kruskal,amostra_1_vs_amostra_3,True
+4,mmse,kruskal,amostra_2_vs_amostra_3,True
+4,adl,kruskal,amostra_1_vs_amostra_2,True
+4,adl,kruskal,amostra_1_vs_amostra_3,True
+4,adl,kruskal,amostra_2_vs_amostra_3,True
+4,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+4,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+4,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+4,bmi,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+4,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+4,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+4,systolic_bp,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+4,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+4,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+4,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+4,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+4,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+4,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+4,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+4,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+4,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+4,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+4,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+4,age,shapiro,validacao,False
+4,bmi,shapiro,validacao,False
+4,systolic_bp,shapiro,validacao,False
+4,cholesterol_total,shapiro,validacao,False
+4,mmse,shapiro,validacao,False
+4,adl,shapiro,validacao,False
+4,age,kruskal,validacao_vs_amostra_1,True
+4,age,kruskal,validacao_vs_amostra_2,True
+4,age,kruskal,validacao_vs_amostra_3,True
+4,bmi,kruskal,validacao_vs_amostra_1,True
+4,bmi,kruskal,validacao_vs_amostra_2,True
+4,bmi,kruskal,validacao_vs_amostra_3,True
+4,systolic_bp,kruskal,validacao_vs_amostra_1,True
+4,systolic_bp,kruskal,validacao_vs_amostra_2,True
+4,systolic_bp,kruskal,validacao_vs_amostra_3,True
+4,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+4,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+4,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+4,mmse,kruskal,validacao_vs_amostra_1,True
+4,mmse,kruskal,validacao_vs_amostra_2,True
+4,mmse,kruskal,validacao_vs_amostra_3,True
+4,adl,kruskal,validacao_vs_amostra_1,True
+4,adl,kruskal,validacao_vs_amostra_2,True
+4,adl,kruskal,validacao_vs_amostra_3,True
+4,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+4,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+4,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+4,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+4,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+4,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+5,age,shapiro,amostra_1,False
+5,age,shapiro,amostra_2,False
+5,age,shapiro,amostra_3,False
+5,bmi,shapiro,amostra_1,False
+5,bmi,shapiro,amostra_2,False
+5,bmi,shapiro,amostra_3,False
+5,systolic_bp,shapiro,amostra_1,False
+5,systolic_bp,shapiro,amostra_2,False
+5,systolic_bp,shapiro,amostra_3,False
+5,cholesterol_total,shapiro,amostra_1,False
+5,cholesterol_total,shapiro,amostra_2,False
+5,cholesterol_total,shapiro,amostra_3,False
+5,mmse,shapiro,amostra_1,False
+5,mmse,shapiro,amostra_2,False
+5,mmse,shapiro,amostra_3,False
+5,adl,shapiro,amostra_1,False
+5,adl,shapiro,amostra_2,False
+5,adl,shapiro,amostra_3,False
+5,age,kruskal,amostra_1_vs_amostra_2,True
+5,age,kruskal,amostra_1_vs_amostra_3,True
+5,age,kruskal,amostra_2_vs_amostra_3,True
+5,bmi,kruskal,amostra_1_vs_amostra_2,True
+5,bmi,kruskal,amostra_1_vs_amostra_3,True
+5,bmi,kruskal,amostra_2_vs_amostra_3,True
+5,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+5,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+5,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+5,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+5,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+5,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+5,mmse,kruskal,amostra_1_vs_amostra_2,True
+5,mmse,kruskal,amostra_1_vs_amostra_3,True
+5,mmse,kruskal,amostra_2_vs_amostra_3,True
+5,adl,kruskal,amostra_1_vs_amostra_2,True
+5,adl,kruskal,amostra_1_vs_amostra_3,True
+5,adl,kruskal,amostra_2_vs_amostra_3,True
+5,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+5,age,pearson,amostra_2,"[0, 1, 0, 1, 1, 1]"
+5,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 0]"
+5,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+5,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+5,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+5,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 0, 1]"
+5,systolic_bp,pearson,amostra_2,"[0, 1, 0, 1, 1, 1]"
+5,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+5,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+5,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+5,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 0]"
+5,mmse,pearson,amostra_1,"[1, 1, 0, 1, 0, 1]"
+5,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+5,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+5,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+5,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+5,adl,pearson,amostra_3,"[0, 1, 1, 0, 1, 0]"
+5,age,shapiro,validacao,False
+5,bmi,shapiro,validacao,False
+5,systolic_bp,shapiro,validacao,False
+5,cholesterol_total,shapiro,validacao,False
+5,mmse,shapiro,validacao,False
+5,adl,shapiro,validacao,False
+5,age,kruskal,validacao_vs_amostra_1,True
+5,age,kruskal,validacao_vs_amostra_2,True
+5,age,kruskal,validacao_vs_amostra_3,True
+5,bmi,kruskal,validacao_vs_amostra_1,True
+5,bmi,kruskal,validacao_vs_amostra_2,False
+5,bmi,kruskal,validacao_vs_amostra_3,False
+5,systolic_bp,kruskal,validacao_vs_amostra_1,True
+5,systolic_bp,kruskal,validacao_vs_amostra_2,True
+5,systolic_bp,kruskal,validacao_vs_amostra_3,True
+5,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+5,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+5,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+5,mmse,kruskal,validacao_vs_amostra_1,True
+5,mmse,kruskal,validacao_vs_amostra_2,True
+5,mmse,kruskal,validacao_vs_amostra_3,True
+5,adl,kruskal,validacao_vs_amostra_1,True
+5,adl,kruskal,validacao_vs_amostra_2,True
+5,adl,kruskal,validacao_vs_amostra_3,True
+5,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+5,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+5,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+5,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+5,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+5,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+6,age,shapiro,amostra_1,False
+6,age,shapiro,amostra_2,False
+6,age,shapiro,amostra_3,False
+6,bmi,shapiro,amostra_1,False
+6,bmi,shapiro,amostra_2,False
+6,bmi,shapiro,amostra_3,False
+6,systolic_bp,shapiro,amostra_1,False
+6,systolic_bp,shapiro,amostra_2,False
+6,systolic_bp,shapiro,amostra_3,False
+6,cholesterol_total,shapiro,amostra_1,False
+6,cholesterol_total,shapiro,amostra_2,False
+6,cholesterol_total,shapiro,amostra_3,False
+6,mmse,shapiro,amostra_1,False
+6,mmse,shapiro,amostra_2,False
+6,mmse,shapiro,amostra_3,False
+6,adl,shapiro,amostra_1,False
+6,adl,shapiro,amostra_2,False
+6,adl,shapiro,amostra_3,False
+6,age,kruskal,amostra_1_vs_amostra_2,True
+6,age,kruskal,amostra_1_vs_amostra_3,True
+6,age,kruskal,amostra_2_vs_amostra_3,True
+6,bmi,kruskal,amostra_1_vs_amostra_2,True
+6,bmi,kruskal,amostra_1_vs_amostra_3,True
+6,bmi,kruskal,amostra_2_vs_amostra_3,True
+6,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+6,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+6,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+6,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+6,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+6,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+6,mmse,kruskal,amostra_1_vs_amostra_2,True
+6,mmse,kruskal,amostra_1_vs_amostra_3,True
+6,mmse,kruskal,amostra_2_vs_amostra_3,True
+6,adl,kruskal,amostra_1_vs_amostra_2,True
+6,adl,kruskal,amostra_1_vs_amostra_3,True
+6,adl,kruskal,amostra_2_vs_amostra_3,True
+6,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+6,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+6,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+6,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+6,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+6,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+6,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+6,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+6,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+6,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+6,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+6,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+6,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+6,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+6,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+6,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+6,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+6,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+6,age,shapiro,validacao,False
+6,bmi,shapiro,validacao,False
+6,systolic_bp,shapiro,validacao,False
+6,cholesterol_total,shapiro,validacao,False
+6,mmse,shapiro,validacao,False
+6,adl,shapiro,validacao,False
+6,age,kruskal,validacao_vs_amostra_1,True
+6,age,kruskal,validacao_vs_amostra_2,True
+6,age,kruskal,validacao_vs_amostra_3,True
+6,bmi,kruskal,validacao_vs_amostra_1,True
+6,bmi,kruskal,validacao_vs_amostra_2,True
+6,bmi,kruskal,validacao_vs_amostra_3,True
+6,systolic_bp,kruskal,validacao_vs_amostra_1,True
+6,systolic_bp,kruskal,validacao_vs_amostra_2,True
+6,systolic_bp,kruskal,validacao_vs_amostra_3,True
+6,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+6,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+6,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+6,mmse,kruskal,validacao_vs_amostra_1,True
+6,mmse,kruskal,validacao_vs_amostra_2,True
+6,mmse,kruskal,validacao_vs_amostra_3,True
+6,adl,kruskal,validacao_vs_amostra_1,True
+6,adl,kruskal,validacao_vs_amostra_2,True
+6,adl,kruskal,validacao_vs_amostra_3,True
+6,age,pearson,validacao,"[0, 1, 1, 1, 1, 0]"
+6,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+6,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 0]"
+6,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+6,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+6,adl,pearson,validacao,"[0, 1, 0, 1, 1, 0]"
+7,age,shapiro,amostra_1,False
+7,age,shapiro,amostra_2,False
+7,age,shapiro,amostra_3,False
+7,bmi,shapiro,amostra_1,False
+7,bmi,shapiro,amostra_2,False
+7,bmi,shapiro,amostra_3,False
+7,systolic_bp,shapiro,amostra_1,False
+7,systolic_bp,shapiro,amostra_2,False
+7,systolic_bp,shapiro,amostra_3,False
+7,cholesterol_total,shapiro,amostra_1,False
+7,cholesterol_total,shapiro,amostra_2,False
+7,cholesterol_total,shapiro,amostra_3,False
+7,mmse,shapiro,amostra_1,False
+7,mmse,shapiro,amostra_2,False
+7,mmse,shapiro,amostra_3,False
+7,adl,shapiro,amostra_1,False
+7,adl,shapiro,amostra_2,False
+7,adl,shapiro,amostra_3,False
+7,age,kruskal,amostra_1_vs_amostra_2,True
+7,age,kruskal,amostra_1_vs_amostra_3,True
+7,age,kruskal,amostra_2_vs_amostra_3,False
+7,bmi,kruskal,amostra_1_vs_amostra_2,True
+7,bmi,kruskal,amostra_1_vs_amostra_3,True
+7,bmi,kruskal,amostra_2_vs_amostra_3,True
+7,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+7,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+7,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+7,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+7,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+7,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+7,mmse,kruskal,amostra_1_vs_amostra_2,True
+7,mmse,kruskal,amostra_1_vs_amostra_3,False
+7,mmse,kruskal,amostra_2_vs_amostra_3,True
+7,adl,kruskal,amostra_1_vs_amostra_2,True
+7,adl,kruskal,amostra_1_vs_amostra_3,True
+7,adl,kruskal,amostra_2_vs_amostra_3,True
+7,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 0]"
+7,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+7,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+7,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+7,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+7,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+7,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+7,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+7,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+7,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 0, 1]"
+7,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+7,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+7,mmse,pearson,amostra_1,"[1, 1, 1, 0, 0, 1]"
+7,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+7,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+7,adl,pearson,amostra_1,"[0, 1, 1, 1, 1, 0]"
+7,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+7,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+7,age,shapiro,validacao,False
+7,bmi,shapiro,validacao,False
+7,systolic_bp,shapiro,validacao,False
+7,cholesterol_total,shapiro,validacao,False
+7,mmse,shapiro,validacao,False
+7,adl,shapiro,validacao,False
+7,age,kruskal,validacao_vs_amostra_1,True
+7,age,kruskal,validacao_vs_amostra_2,True
+7,age,kruskal,validacao_vs_amostra_3,True
+7,bmi,kruskal,validacao_vs_amostra_1,True
+7,bmi,kruskal,validacao_vs_amostra_2,True
+7,bmi,kruskal,validacao_vs_amostra_3,True
+7,systolic_bp,kruskal,validacao_vs_amostra_1,True
+7,systolic_bp,kruskal,validacao_vs_amostra_2,True
+7,systolic_bp,kruskal,validacao_vs_amostra_3,True
+7,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+7,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+7,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+7,mmse,kruskal,validacao_vs_amostra_1,True
+7,mmse,kruskal,validacao_vs_amostra_2,True
+7,mmse,kruskal,validacao_vs_amostra_3,True
+7,adl,kruskal,validacao_vs_amostra_1,True
+7,adl,kruskal,validacao_vs_amostra_2,True
+7,adl,kruskal,validacao_vs_amostra_3,True
+7,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+7,bmi,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+7,systolic_bp,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+7,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+7,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+7,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+8,age,shapiro,amostra_1,False
+8,age,shapiro,amostra_2,False
+8,age,shapiro,amostra_3,False
+8,bmi,shapiro,amostra_1,False
+8,bmi,shapiro,amostra_2,False
+8,bmi,shapiro,amostra_3,False
+8,systolic_bp,shapiro,amostra_1,False
+8,systolic_bp,shapiro,amostra_2,False
+8,systolic_bp,shapiro,amostra_3,False
+8,cholesterol_total,shapiro,amostra_1,False
+8,cholesterol_total,shapiro,amostra_2,False
+8,cholesterol_total,shapiro,amostra_3,False
+8,mmse,shapiro,amostra_1,False
+8,mmse,shapiro,amostra_2,False
+8,mmse,shapiro,amostra_3,False
+8,adl,shapiro,amostra_1,False
+8,adl,shapiro,amostra_2,False
+8,adl,shapiro,amostra_3,False
+8,age,kruskal,amostra_1_vs_amostra_2,True
+8,age,kruskal,amostra_1_vs_amostra_3,True
+8,age,kruskal,amostra_2_vs_amostra_3,True
+8,bmi,kruskal,amostra_1_vs_amostra_2,True
+8,bmi,kruskal,amostra_1_vs_amostra_3,True
+8,bmi,kruskal,amostra_2_vs_amostra_3,True
+8,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+8,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+8,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+8,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+8,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+8,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+8,mmse,kruskal,amostra_1_vs_amostra_2,True
+8,mmse,kruskal,amostra_1_vs_amostra_3,True
+8,mmse,kruskal,amostra_2_vs_amostra_3,True
+8,adl,kruskal,amostra_1_vs_amostra_2,True
+8,adl,kruskal,amostra_1_vs_amostra_3,True
+8,adl,kruskal,amostra_2_vs_amostra_3,True
+8,age,pearson,amostra_1,"[0, 1, 0, 1, 1, 1]"
+8,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+8,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+8,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+8,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+8,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+8,systolic_bp,pearson,amostra_1,"[0, 1, 0, 1, 1, 1]"
+8,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 0]"
+8,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+8,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+8,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+8,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+8,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 0]"
+8,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+8,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+8,adl,pearson,amostra_1,"[1, 1, 1, 1, 0, 0]"
+8,adl,pearson,amostra_2,"[1, 1, 0, 1, 1, 0]"
+8,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+8,age,shapiro,validacao,False
+8,bmi,shapiro,validacao,False
+8,systolic_bp,shapiro,validacao,False
+8,cholesterol_total,shapiro,validacao,False
+8,mmse,shapiro,validacao,False
+8,adl,shapiro,validacao,False
+8,age,kruskal,validacao_vs_amostra_1,True
+8,age,kruskal,validacao_vs_amostra_2,True
+8,age,kruskal,validacao_vs_amostra_3,True
+8,bmi,kruskal,validacao_vs_amostra_1,True
+8,bmi,kruskal,validacao_vs_amostra_2,True
+8,bmi,kruskal,validacao_vs_amostra_3,True
+8,systolic_bp,kruskal,validacao_vs_amostra_1,True
+8,systolic_bp,kruskal,validacao_vs_amostra_2,True
+8,systolic_bp,kruskal,validacao_vs_amostra_3,True
+8,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+8,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+8,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+8,mmse,kruskal,validacao_vs_amostra_1,True
+8,mmse,kruskal,validacao_vs_amostra_2,True
+8,mmse,kruskal,validacao_vs_amostra_3,True
+8,adl,kruskal,validacao_vs_amostra_1,True
+8,adl,kruskal,validacao_vs_amostra_2,True
+8,adl,kruskal,validacao_vs_amostra_3,True
+8,age,pearson,validacao,"[0, 1, 1, 1, 1, 0]"
+8,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+8,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+8,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+8,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+8,adl,pearson,validacao,"[0, 1, 1, 1, 1, 0]"
+9,age,shapiro,amostra_1,False
+9,age,shapiro,amostra_2,False
+9,age,shapiro,amostra_3,False
+9,bmi,shapiro,amostra_1,False
+9,bmi,shapiro,amostra_2,False
+9,bmi,shapiro,amostra_3,False
+9,systolic_bp,shapiro,amostra_1,False
+9,systolic_bp,shapiro,amostra_2,False
+9,systolic_bp,shapiro,amostra_3,False
+9,cholesterol_total,shapiro,amostra_1,False
+9,cholesterol_total,shapiro,amostra_2,False
+9,cholesterol_total,shapiro,amostra_3,False
+9,mmse,shapiro,amostra_1,False
+9,mmse,shapiro,amostra_2,False
+9,mmse,shapiro,amostra_3,False
+9,adl,shapiro,amostra_1,False
+9,adl,shapiro,amostra_2,False
+9,adl,shapiro,amostra_3,False
+9,age,kruskal,amostra_1_vs_amostra_2,True
+9,age,kruskal,amostra_1_vs_amostra_3,True
+9,age,kruskal,amostra_2_vs_amostra_3,True
+9,bmi,kruskal,amostra_1_vs_amostra_2,True
+9,bmi,kruskal,amostra_1_vs_amostra_3,True
+9,bmi,kruskal,amostra_2_vs_amostra_3,True
+9,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+9,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+9,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+9,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+9,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+9,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+9,mmse,kruskal,amostra_1_vs_amostra_2,True
+9,mmse,kruskal,amostra_1_vs_amostra_3,True
+9,mmse,kruskal,amostra_2_vs_amostra_3,True
+9,adl,kruskal,amostra_1_vs_amostra_2,True
+9,adl,kruskal,amostra_1_vs_amostra_3,True
+9,adl,kruskal,amostra_2_vs_amostra_3,True
+9,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+9,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+9,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+9,bmi,pearson,amostra_1,"[1, 0, 1, 0, 1, 1]"
+9,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+9,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+9,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+9,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+9,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+9,cholesterol_total,pearson,amostra_1,"[1, 0, 1, 0, 1, 1]"
+9,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+9,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 0, 1]"
+9,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+9,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+9,mmse,pearson,amostra_3,"[1, 1, 1, 0, 0, 1]"
+9,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+9,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+9,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+9,age,shapiro,validacao,False
+9,bmi,shapiro,validacao,False
+9,systolic_bp,shapiro,validacao,False
+9,cholesterol_total,shapiro,validacao,False
+9,mmse,shapiro,validacao,False
+9,adl,shapiro,validacao,False
+9,age,kruskal,validacao_vs_amostra_1,True
+9,age,kruskal,validacao_vs_amostra_2,True
+9,age,kruskal,validacao_vs_amostra_3,True
+9,bmi,kruskal,validacao_vs_amostra_1,True
+9,bmi,kruskal,validacao_vs_amostra_2,True
+9,bmi,kruskal,validacao_vs_amostra_3,True
+9,systolic_bp,kruskal,validacao_vs_amostra_1,True
+9,systolic_bp,kruskal,validacao_vs_amostra_2,True
+9,systolic_bp,kruskal,validacao_vs_amostra_3,True
+9,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+9,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+9,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+9,mmse,kruskal,validacao_vs_amostra_1,True
+9,mmse,kruskal,validacao_vs_amostra_2,True
+9,mmse,kruskal,validacao_vs_amostra_3,True
+9,adl,kruskal,validacao_vs_amostra_1,True
+9,adl,kruskal,validacao_vs_amostra_2,True
+9,adl,kruskal,validacao_vs_amostra_3,True
+9,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+9,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+9,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+9,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+9,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+9,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+10,age,shapiro,amostra_1,False
+10,age,shapiro,amostra_2,False
+10,age,shapiro,amostra_3,False
+10,bmi,shapiro,amostra_1,False
+10,bmi,shapiro,amostra_2,False
+10,bmi,shapiro,amostra_3,False
+10,systolic_bp,shapiro,amostra_1,False
+10,systolic_bp,shapiro,amostra_2,False
+10,systolic_bp,shapiro,amostra_3,False
+10,cholesterol_total,shapiro,amostra_1,False
+10,cholesterol_total,shapiro,amostra_2,False
+10,cholesterol_total,shapiro,amostra_3,False
+10,mmse,shapiro,amostra_1,False
+10,mmse,shapiro,amostra_2,False
+10,mmse,shapiro,amostra_3,False
+10,adl,shapiro,amostra_1,False
+10,adl,shapiro,amostra_2,False
+10,adl,shapiro,amostra_3,False
+10,age,kruskal,amostra_1_vs_amostra_2,True
+10,age,kruskal,amostra_1_vs_amostra_3,True
+10,age,kruskal,amostra_2_vs_amostra_3,True
+10,bmi,kruskal,amostra_1_vs_amostra_2,True
+10,bmi,kruskal,amostra_1_vs_amostra_3,True
+10,bmi,kruskal,amostra_2_vs_amostra_3,True
+10,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+10,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+10,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+10,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+10,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+10,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+10,mmse,kruskal,amostra_1_vs_amostra_2,True
+10,mmse,kruskal,amostra_1_vs_amostra_3,True
+10,mmse,kruskal,amostra_2_vs_amostra_3,True
+10,adl,kruskal,amostra_1_vs_amostra_2,True
+10,adl,kruskal,amostra_1_vs_amostra_3,True
+10,adl,kruskal,amostra_2_vs_amostra_3,True
+10,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+10,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+10,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+10,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+10,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+10,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+10,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+10,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 0]"
+10,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+10,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+10,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+10,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+10,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+10,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+10,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+10,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+10,adl,pearson,amostra_2,"[1, 1, 0, 1, 1, 0]"
+10,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+10,age,shapiro,validacao,False
+10,bmi,shapiro,validacao,False
+10,systolic_bp,shapiro,validacao,False
+10,cholesterol_total,shapiro,validacao,False
+10,mmse,shapiro,validacao,False
+10,adl,shapiro,validacao,False
+10,age,kruskal,validacao_vs_amostra_1,True
+10,age,kruskal,validacao_vs_amostra_2,True
+10,age,kruskal,validacao_vs_amostra_3,True
+10,bmi,kruskal,validacao_vs_amostra_1,True
+10,bmi,kruskal,validacao_vs_amostra_2,True
+10,bmi,kruskal,validacao_vs_amostra_3,True
+10,systolic_bp,kruskal,validacao_vs_amostra_1,False
+10,systolic_bp,kruskal,validacao_vs_amostra_2,True
+10,systolic_bp,kruskal,validacao_vs_amostra_3,True
+10,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+10,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+10,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+10,mmse,kruskal,validacao_vs_amostra_1,True
+10,mmse,kruskal,validacao_vs_amostra_2,True
+10,mmse,kruskal,validacao_vs_amostra_3,True
+10,adl,kruskal,validacao_vs_amostra_1,True
+10,adl,kruskal,validacao_vs_amostra_2,True
+10,adl,kruskal,validacao_vs_amostra_3,True
+10,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+10,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+10,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+10,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 0, 1]"
+10,mmse,pearson,validacao,"[1, 1, 1, 0, 0, 1]"
+10,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+11,age,shapiro,amostra_1,False
+11,age,shapiro,amostra_2,False
+11,age,shapiro,amostra_3,False
+11,bmi,shapiro,amostra_1,False
+11,bmi,shapiro,amostra_2,False
+11,bmi,shapiro,amostra_3,False
+11,systolic_bp,shapiro,amostra_1,False
+11,systolic_bp,shapiro,amostra_2,False
+11,systolic_bp,shapiro,amostra_3,False
+11,cholesterol_total,shapiro,amostra_1,False
+11,cholesterol_total,shapiro,amostra_2,False
+11,cholesterol_total,shapiro,amostra_3,False
+11,mmse,shapiro,amostra_1,False
+11,mmse,shapiro,amostra_2,False
+11,mmse,shapiro,amostra_3,False
+11,adl,shapiro,amostra_1,False
+11,adl,shapiro,amostra_2,False
+11,adl,shapiro,amostra_3,False
+11,age,kruskal,amostra_1_vs_amostra_2,True
+11,age,kruskal,amostra_1_vs_amostra_3,True
+11,age,kruskal,amostra_2_vs_amostra_3,True
+11,bmi,kruskal,amostra_1_vs_amostra_2,True
+11,bmi,kruskal,amostra_1_vs_amostra_3,True
+11,bmi,kruskal,amostra_2_vs_amostra_3,True
+11,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+11,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+11,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+11,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+11,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+11,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+11,mmse,kruskal,amostra_1_vs_amostra_2,True
+11,mmse,kruskal,amostra_1_vs_amostra_3,True
+11,mmse,kruskal,amostra_2_vs_amostra_3,True
+11,adl,kruskal,amostra_1_vs_amostra_2,True
+11,adl,kruskal,amostra_1_vs_amostra_3,True
+11,adl,kruskal,amostra_2_vs_amostra_3,True
+11,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+11,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+11,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+11,bmi,pearson,amostra_1,"[1, 0, 1, 1, 0, 1]"
+11,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+11,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+11,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+11,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+11,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+11,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+11,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+11,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+11,mmse,pearson,amostra_1,"[1, 0, 1, 1, 0, 1]"
+11,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 0]"
+11,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+11,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+11,adl,pearson,amostra_2,"[1, 1, 1, 1, 0, 0]"
+11,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+11,age,shapiro,validacao,False
+11,bmi,shapiro,validacao,False
+11,systolic_bp,shapiro,validacao,False
+11,cholesterol_total,shapiro,validacao,False
+11,mmse,shapiro,validacao,False
+11,adl,shapiro,validacao,False
+11,age,kruskal,validacao_vs_amostra_1,True
+11,age,kruskal,validacao_vs_amostra_2,True
+11,age,kruskal,validacao_vs_amostra_3,True
+11,bmi,kruskal,validacao_vs_amostra_1,True
+11,bmi,kruskal,validacao_vs_amostra_2,True
+11,bmi,kruskal,validacao_vs_amostra_3,True
+11,systolic_bp,kruskal,validacao_vs_amostra_1,True
+11,systolic_bp,kruskal,validacao_vs_amostra_2,True
+11,systolic_bp,kruskal,validacao_vs_amostra_3,True
+11,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+11,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+11,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+11,mmse,kruskal,validacao_vs_amostra_1,True
+11,mmse,kruskal,validacao_vs_amostra_2,True
+11,mmse,kruskal,validacao_vs_amostra_3,True
+11,adl,kruskal,validacao_vs_amostra_1,True
+11,adl,kruskal,validacao_vs_amostra_2,True
+11,adl,kruskal,validacao_vs_amostra_3,True
+11,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+11,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+11,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+11,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 0, 1]"
+11,mmse,pearson,validacao,"[1, 1, 1, 0, 0, 1]"
+11,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+12,age,shapiro,amostra_1,False
+12,age,shapiro,amostra_2,False
+12,age,shapiro,amostra_3,False
+12,bmi,shapiro,amostra_1,False
+12,bmi,shapiro,amostra_2,False
+12,bmi,shapiro,amostra_3,False
+12,systolic_bp,shapiro,amostra_1,False
+12,systolic_bp,shapiro,amostra_2,False
+12,systolic_bp,shapiro,amostra_3,False
+12,cholesterol_total,shapiro,amostra_1,False
+12,cholesterol_total,shapiro,amostra_2,False
+12,cholesterol_total,shapiro,amostra_3,False
+12,mmse,shapiro,amostra_1,False
+12,mmse,shapiro,amostra_2,False
+12,mmse,shapiro,amostra_3,False
+12,adl,shapiro,amostra_1,False
+12,adl,shapiro,amostra_2,False
+12,adl,shapiro,amostra_3,False
+12,age,kruskal,amostra_1_vs_amostra_2,False
+12,age,kruskal,amostra_1_vs_amostra_3,True
+12,age,kruskal,amostra_2_vs_amostra_3,True
+12,bmi,kruskal,amostra_1_vs_amostra_2,True
+12,bmi,kruskal,amostra_1_vs_amostra_3,True
+12,bmi,kruskal,amostra_2_vs_amostra_3,True
+12,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+12,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+12,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+12,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+12,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+12,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+12,mmse,kruskal,amostra_1_vs_amostra_2,True
+12,mmse,kruskal,amostra_1_vs_amostra_3,True
+12,mmse,kruskal,amostra_2_vs_amostra_3,True
+12,adl,kruskal,amostra_1_vs_amostra_2,True
+12,adl,kruskal,amostra_1_vs_amostra_3,True
+12,adl,kruskal,amostra_2_vs_amostra_3,True
+12,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+12,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+12,age,pearson,amostra_3,"[0, 1, 1, 1, 0, 1]"
+12,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+12,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+12,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+12,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+12,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+12,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+12,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 0]"
+12,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+12,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+12,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+12,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+12,mmse,pearson,amostra_3,"[0, 1, 1, 1, 0, 1]"
+12,adl,pearson,amostra_1,"[1, 1, 1, 0, 1, 0]"
+12,adl,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+12,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+12,age,shapiro,validacao,False
+12,bmi,shapiro,validacao,False
+12,systolic_bp,shapiro,validacao,False
+12,cholesterol_total,shapiro,validacao,False
+12,mmse,shapiro,validacao,False
+12,adl,shapiro,validacao,False
+12,age,kruskal,validacao_vs_amostra_1,True
+12,age,kruskal,validacao_vs_amostra_2,True
+12,age,kruskal,validacao_vs_amostra_3,True
+12,bmi,kruskal,validacao_vs_amostra_1,True
+12,bmi,kruskal,validacao_vs_amostra_2,True
+12,bmi,kruskal,validacao_vs_amostra_3,True
+12,systolic_bp,kruskal,validacao_vs_amostra_1,True
+12,systolic_bp,kruskal,validacao_vs_amostra_2,True
+12,systolic_bp,kruskal,validacao_vs_amostra_3,True
+12,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+12,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+12,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+12,mmse,kruskal,validacao_vs_amostra_1,True
+12,mmse,kruskal,validacao_vs_amostra_2,True
+12,mmse,kruskal,validacao_vs_amostra_3,True
+12,adl,kruskal,validacao_vs_amostra_1,True
+12,adl,kruskal,validacao_vs_amostra_2,True
+12,adl,kruskal,validacao_vs_amostra_3,True
+12,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+12,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 0]"
+12,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+12,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 0]"
+12,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+12,adl,pearson,validacao,"[1, 0, 1, 0, 1, 0]"
+13,age,shapiro,amostra_1,False
+13,age,shapiro,amostra_2,False
+13,age,shapiro,amostra_3,False
+13,bmi,shapiro,amostra_1,False
+13,bmi,shapiro,amostra_2,False
+13,bmi,shapiro,amostra_3,False
+13,systolic_bp,shapiro,amostra_1,False
+13,systolic_bp,shapiro,amostra_2,False
+13,systolic_bp,shapiro,amostra_3,False
+13,cholesterol_total,shapiro,amostra_1,False
+13,cholesterol_total,shapiro,amostra_2,False
+13,cholesterol_total,shapiro,amostra_3,False
+13,mmse,shapiro,amostra_1,False
+13,mmse,shapiro,amostra_2,False
+13,mmse,shapiro,amostra_3,False
+13,adl,shapiro,amostra_1,False
+13,adl,shapiro,amostra_2,False
+13,adl,shapiro,amostra_3,False
+13,age,kruskal,amostra_1_vs_amostra_2,True
+13,age,kruskal,amostra_1_vs_amostra_3,True
+13,age,kruskal,amostra_2_vs_amostra_3,True
+13,bmi,kruskal,amostra_1_vs_amostra_2,True
+13,bmi,kruskal,amostra_1_vs_amostra_3,True
+13,bmi,kruskal,amostra_2_vs_amostra_3,True
+13,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+13,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+13,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+13,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+13,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+13,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+13,mmse,kruskal,amostra_1_vs_amostra_2,True
+13,mmse,kruskal,amostra_1_vs_amostra_3,True
+13,mmse,kruskal,amostra_2_vs_amostra_3,True
+13,adl,kruskal,amostra_1_vs_amostra_2,True
+13,adl,kruskal,amostra_1_vs_amostra_3,True
+13,adl,kruskal,amostra_2_vs_amostra_3,True
+13,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+13,age,pearson,amostra_2,"[0, 1, 1, 1, 0, 1]"
+13,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+13,bmi,pearson,amostra_1,"[1, 0, 1, 0, 1, 1]"
+13,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+13,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+13,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+13,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+13,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+13,cholesterol_total,pearson,amostra_1,"[1, 0, 1, 0, 1, 1]"
+13,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 0, 1]"
+13,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+13,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+13,mmse,pearson,amostra_2,"[0, 1, 1, 0, 0, 1]"
+13,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+13,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+13,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+13,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+13,age,shapiro,validacao,False
+13,bmi,shapiro,validacao,False
+13,systolic_bp,shapiro,validacao,False
+13,cholesterol_total,shapiro,validacao,False
+13,mmse,shapiro,validacao,False
+13,adl,shapiro,validacao,False
+13,age,kruskal,validacao_vs_amostra_1,True
+13,age,kruskal,validacao_vs_amostra_2,True
+13,age,kruskal,validacao_vs_amostra_3,True
+13,bmi,kruskal,validacao_vs_amostra_1,True
+13,bmi,kruskal,validacao_vs_amostra_2,True
+13,bmi,kruskal,validacao_vs_amostra_3,False
+13,systolic_bp,kruskal,validacao_vs_amostra_1,True
+13,systolic_bp,kruskal,validacao_vs_amostra_2,True
+13,systolic_bp,kruskal,validacao_vs_amostra_3,True
+13,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+13,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+13,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+13,mmse,kruskal,validacao_vs_amostra_1,True
+13,mmse,kruskal,validacao_vs_amostra_2,True
+13,mmse,kruskal,validacao_vs_amostra_3,True
+13,adl,kruskal,validacao_vs_amostra_1,False
+13,adl,kruskal,validacao_vs_amostra_2,False
+13,adl,kruskal,validacao_vs_amostra_3,True
+13,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+13,bmi,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+13,systolic_bp,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+13,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+13,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+13,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+14,age,shapiro,amostra_1,False
+14,age,shapiro,amostra_2,False
+14,age,shapiro,amostra_3,False
+14,bmi,shapiro,amostra_1,False
+14,bmi,shapiro,amostra_2,False
+14,bmi,shapiro,amostra_3,False
+14,systolic_bp,shapiro,amostra_1,False
+14,systolic_bp,shapiro,amostra_2,False
+14,systolic_bp,shapiro,amostra_3,False
+14,cholesterol_total,shapiro,amostra_1,False
+14,cholesterol_total,shapiro,amostra_2,False
+14,cholesterol_total,shapiro,amostra_3,False
+14,mmse,shapiro,amostra_1,False
+14,mmse,shapiro,amostra_2,False
+14,mmse,shapiro,amostra_3,False
+14,adl,shapiro,amostra_1,False
+14,adl,shapiro,amostra_2,False
+14,adl,shapiro,amostra_3,False
+14,age,kruskal,amostra_1_vs_amostra_2,True
+14,age,kruskal,amostra_1_vs_amostra_3,True
+14,age,kruskal,amostra_2_vs_amostra_3,True
+14,bmi,kruskal,amostra_1_vs_amostra_2,True
+14,bmi,kruskal,amostra_1_vs_amostra_3,True
+14,bmi,kruskal,amostra_2_vs_amostra_3,True
+14,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+14,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+14,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+14,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+14,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+14,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+14,mmse,kruskal,amostra_1_vs_amostra_2,True
+14,mmse,kruskal,amostra_1_vs_amostra_3,True
+14,mmse,kruskal,amostra_2_vs_amostra_3,True
+14,adl,kruskal,amostra_1_vs_amostra_2,True
+14,adl,kruskal,amostra_1_vs_amostra_3,True
+14,adl,kruskal,amostra_2_vs_amostra_3,True
+14,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+14,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+14,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+14,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+14,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+14,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+14,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+14,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+14,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+14,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+14,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+14,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+14,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+14,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+14,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+14,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+14,adl,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+14,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+14,age,shapiro,validacao,False
+14,bmi,shapiro,validacao,False
+14,systolic_bp,shapiro,validacao,False
+14,cholesterol_total,shapiro,validacao,False
+14,mmse,shapiro,validacao,False
+14,adl,shapiro,validacao,False
+14,age,kruskal,validacao_vs_amostra_1,True
+14,age,kruskal,validacao_vs_amostra_2,True
+14,age,kruskal,validacao_vs_amostra_3,True
+14,bmi,kruskal,validacao_vs_amostra_1,True
+14,bmi,kruskal,validacao_vs_amostra_2,True
+14,bmi,kruskal,validacao_vs_amostra_3,True
+14,systolic_bp,kruskal,validacao_vs_amostra_1,True
+14,systolic_bp,kruskal,validacao_vs_amostra_2,True
+14,systolic_bp,kruskal,validacao_vs_amostra_3,True
+14,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+14,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+14,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+14,mmse,kruskal,validacao_vs_amostra_1,True
+14,mmse,kruskal,validacao_vs_amostra_2,True
+14,mmse,kruskal,validacao_vs_amostra_3,True
+14,adl,kruskal,validacao_vs_amostra_1,True
+14,adl,kruskal,validacao_vs_amostra_2,True
+14,adl,kruskal,validacao_vs_amostra_3,True
+14,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+14,bmi,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+14,systolic_bp,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+14,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+14,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+14,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+15,age,shapiro,amostra_1,False
+15,age,shapiro,amostra_2,False
+15,age,shapiro,amostra_3,False
+15,bmi,shapiro,amostra_1,False
+15,bmi,shapiro,amostra_2,False
+15,bmi,shapiro,amostra_3,False
+15,systolic_bp,shapiro,amostra_1,False
+15,systolic_bp,shapiro,amostra_2,False
+15,systolic_bp,shapiro,amostra_3,False
+15,cholesterol_total,shapiro,amostra_1,False
+15,cholesterol_total,shapiro,amostra_2,False
+15,cholesterol_total,shapiro,amostra_3,False
+15,mmse,shapiro,amostra_1,False
+15,mmse,shapiro,amostra_2,False
+15,mmse,shapiro,amostra_3,False
+15,adl,shapiro,amostra_1,False
+15,adl,shapiro,amostra_2,False
+15,adl,shapiro,amostra_3,False
+15,age,kruskal,amostra_1_vs_amostra_2,True
+15,age,kruskal,amostra_1_vs_amostra_3,True
+15,age,kruskal,amostra_2_vs_amostra_3,True
+15,bmi,kruskal,amostra_1_vs_amostra_2,True
+15,bmi,kruskal,amostra_1_vs_amostra_3,True
+15,bmi,kruskal,amostra_2_vs_amostra_3,True
+15,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+15,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+15,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+15,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+15,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+15,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+15,mmse,kruskal,amostra_1_vs_amostra_2,True
+15,mmse,kruskal,amostra_1_vs_amostra_3,True
+15,mmse,kruskal,amostra_2_vs_amostra_3,True
+15,adl,kruskal,amostra_1_vs_amostra_2,True
+15,adl,kruskal,amostra_1_vs_amostra_3,True
+15,adl,kruskal,amostra_2_vs_amostra_3,True
+15,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+15,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+15,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+15,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+15,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+15,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+15,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+15,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+15,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+15,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+15,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+15,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+15,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+15,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+15,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+15,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+15,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+15,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+15,age,shapiro,validacao,False
+15,bmi,shapiro,validacao,False
+15,systolic_bp,shapiro,validacao,False
+15,cholesterol_total,shapiro,validacao,False
+15,mmse,shapiro,validacao,False
+15,adl,shapiro,validacao,False
+15,age,kruskal,validacao_vs_amostra_1,False
+15,age,kruskal,validacao_vs_amostra_2,True
+15,age,kruskal,validacao_vs_amostra_3,True
+15,bmi,kruskal,validacao_vs_amostra_1,True
+15,bmi,kruskal,validacao_vs_amostra_2,True
+15,bmi,kruskal,validacao_vs_amostra_3,True
+15,systolic_bp,kruskal,validacao_vs_amostra_1,True
+15,systolic_bp,kruskal,validacao_vs_amostra_2,True
+15,systolic_bp,kruskal,validacao_vs_amostra_3,True
+15,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+15,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+15,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+15,mmse,kruskal,validacao_vs_amostra_1,True
+15,mmse,kruskal,validacao_vs_amostra_2,True
+15,mmse,kruskal,validacao_vs_amostra_3,True
+15,adl,kruskal,validacao_vs_amostra_1,True
+15,adl,kruskal,validacao_vs_amostra_2,True
+15,adl,kruskal,validacao_vs_amostra_3,True
+15,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+15,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 0]"
+15,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+15,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 0]"
+15,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+15,adl,pearson,validacao,"[1, 0, 1, 0, 1, 0]"
+16,age,shapiro,amostra_1,False
+16,age,shapiro,amostra_2,False
+16,age,shapiro,amostra_3,False
+16,bmi,shapiro,amostra_1,False
+16,bmi,shapiro,amostra_2,False
+16,bmi,shapiro,amostra_3,False
+16,systolic_bp,shapiro,amostra_1,False
+16,systolic_bp,shapiro,amostra_2,False
+16,systolic_bp,shapiro,amostra_3,False
+16,cholesterol_total,shapiro,amostra_1,False
+16,cholesterol_total,shapiro,amostra_2,False
+16,cholesterol_total,shapiro,amostra_3,False
+16,mmse,shapiro,amostra_1,False
+16,mmse,shapiro,amostra_2,False
+16,mmse,shapiro,amostra_3,False
+16,adl,shapiro,amostra_1,False
+16,adl,shapiro,amostra_2,False
+16,adl,shapiro,amostra_3,False
+16,age,kruskal,amostra_1_vs_amostra_2,True
+16,age,kruskal,amostra_1_vs_amostra_3,True
+16,age,kruskal,amostra_2_vs_amostra_3,True
+16,bmi,kruskal,amostra_1_vs_amostra_2,True
+16,bmi,kruskal,amostra_1_vs_amostra_3,True
+16,bmi,kruskal,amostra_2_vs_amostra_3,True
+16,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+16,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+16,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+16,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+16,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+16,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+16,mmse,kruskal,amostra_1_vs_amostra_2,True
+16,mmse,kruskal,amostra_1_vs_amostra_3,True
+16,mmse,kruskal,amostra_2_vs_amostra_3,True
+16,adl,kruskal,amostra_1_vs_amostra_2,True
+16,adl,kruskal,amostra_1_vs_amostra_3,True
+16,adl,kruskal,amostra_2_vs_amostra_3,True
+16,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+16,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+16,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 0]"
+16,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+16,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+16,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+16,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+16,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+16,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+16,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+16,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+16,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+16,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+16,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+16,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+16,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+16,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+16,adl,pearson,amostra_3,"[0, 1, 1, 1, 1, 0]"
+16,age,shapiro,validacao,False
+16,bmi,shapiro,validacao,False
+16,systolic_bp,shapiro,validacao,False
+16,cholesterol_total,shapiro,validacao,False
+16,mmse,shapiro,validacao,False
+16,adl,shapiro,validacao,False
+16,age,kruskal,validacao_vs_amostra_1,True
+16,age,kruskal,validacao_vs_amostra_2,True
+16,age,kruskal,validacao_vs_amostra_3,True
+16,bmi,kruskal,validacao_vs_amostra_1,True
+16,bmi,kruskal,validacao_vs_amostra_2,True
+16,bmi,kruskal,validacao_vs_amostra_3,True
+16,systolic_bp,kruskal,validacao_vs_amostra_1,True
+16,systolic_bp,kruskal,validacao_vs_amostra_2,True
+16,systolic_bp,kruskal,validacao_vs_amostra_3,True
+16,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+16,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+16,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+16,mmse,kruskal,validacao_vs_amostra_1,False
+16,mmse,kruskal,validacao_vs_amostra_2,True
+16,mmse,kruskal,validacao_vs_amostra_3,True
+16,adl,kruskal,validacao_vs_amostra_1,True
+16,adl,kruskal,validacao_vs_amostra_2,True
+16,adl,kruskal,validacao_vs_amostra_3,True
+16,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+16,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+16,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+16,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+16,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+16,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+17,age,shapiro,amostra_1,False
+17,age,shapiro,amostra_2,False
+17,age,shapiro,amostra_3,False
+17,bmi,shapiro,amostra_1,False
+17,bmi,shapiro,amostra_2,False
+17,bmi,shapiro,amostra_3,False
+17,systolic_bp,shapiro,amostra_1,False
+17,systolic_bp,shapiro,amostra_2,False
+17,systolic_bp,shapiro,amostra_3,False
+17,cholesterol_total,shapiro,amostra_1,False
+17,cholesterol_total,shapiro,amostra_2,False
+17,cholesterol_total,shapiro,amostra_3,False
+17,mmse,shapiro,amostra_1,False
+17,mmse,shapiro,amostra_2,False
+17,mmse,shapiro,amostra_3,False
+17,adl,shapiro,amostra_1,False
+17,adl,shapiro,amostra_2,False
+17,adl,shapiro,amostra_3,False
+17,age,kruskal,amostra_1_vs_amostra_2,True
+17,age,kruskal,amostra_1_vs_amostra_3,True
+17,age,kruskal,amostra_2_vs_amostra_3,True
+17,bmi,kruskal,amostra_1_vs_amostra_2,True
+17,bmi,kruskal,amostra_1_vs_amostra_3,True
+17,bmi,kruskal,amostra_2_vs_amostra_3,True
+17,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+17,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+17,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+17,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+17,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+17,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+17,mmse,kruskal,amostra_1_vs_amostra_2,True
+17,mmse,kruskal,amostra_1_vs_amostra_3,True
+17,mmse,kruskal,amostra_2_vs_amostra_3,True
+17,adl,kruskal,amostra_1_vs_amostra_2,True
+17,adl,kruskal,amostra_1_vs_amostra_3,True
+17,adl,kruskal,amostra_2_vs_amostra_3,True
+17,age,pearson,amostra_1,"[0, 1, 0, 1, 1, 1]"
+17,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+17,age,pearson,amostra_3,"[0, 1, 0, 1, 1, 1]"
+17,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+17,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+17,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+17,systolic_bp,pearson,amostra_1,"[0, 1, 0, 1, 1, 1]"
+17,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+17,systolic_bp,pearson,amostra_3,"[0, 1, 0, 1, 1, 1]"
+17,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+17,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+17,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+17,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+17,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+17,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+17,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+17,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+17,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+17,age,shapiro,validacao,False
+17,bmi,shapiro,validacao,False
+17,systolic_bp,shapiro,validacao,False
+17,cholesterol_total,shapiro,validacao,False
+17,mmse,shapiro,validacao,False
+17,adl,shapiro,validacao,False
+17,age,kruskal,validacao_vs_amostra_1,True
+17,age,kruskal,validacao_vs_amostra_2,True
+17,age,kruskal,validacao_vs_amostra_3,True
+17,bmi,kruskal,validacao_vs_amostra_1,True
+17,bmi,kruskal,validacao_vs_amostra_2,True
+17,bmi,kruskal,validacao_vs_amostra_3,True
+17,systolic_bp,kruskal,validacao_vs_amostra_1,True
+17,systolic_bp,kruskal,validacao_vs_amostra_2,True
+17,systolic_bp,kruskal,validacao_vs_amostra_3,True
+17,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+17,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+17,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+17,mmse,kruskal,validacao_vs_amostra_1,True
+17,mmse,kruskal,validacao_vs_amostra_2,True
+17,mmse,kruskal,validacao_vs_amostra_3,False
+17,adl,kruskal,validacao_vs_amostra_1,True
+17,adl,kruskal,validacao_vs_amostra_2,True
+17,adl,kruskal,validacao_vs_amostra_3,True
+17,age,pearson,validacao,"[0, 1, 0, 1, 1, 1]"
+17,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+17,systolic_bp,pearson,validacao,"[0, 1, 0, 1, 1, 1]"
+17,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+17,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+17,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+18,age,shapiro,amostra_1,False
+18,age,shapiro,amostra_2,False
+18,age,shapiro,amostra_3,False
+18,bmi,shapiro,amostra_1,False
+18,bmi,shapiro,amostra_2,False
+18,bmi,shapiro,amostra_3,False
+18,systolic_bp,shapiro,amostra_1,False
+18,systolic_bp,shapiro,amostra_2,False
+18,systolic_bp,shapiro,amostra_3,False
+18,cholesterol_total,shapiro,amostra_1,False
+18,cholesterol_total,shapiro,amostra_2,False
+18,cholesterol_total,shapiro,amostra_3,False
+18,mmse,shapiro,amostra_1,False
+18,mmse,shapiro,amostra_2,False
+18,mmse,shapiro,amostra_3,False
+18,adl,shapiro,amostra_1,False
+18,adl,shapiro,amostra_2,False
+18,adl,shapiro,amostra_3,False
+18,age,kruskal,amostra_1_vs_amostra_2,True
+18,age,kruskal,amostra_1_vs_amostra_3,True
+18,age,kruskal,amostra_2_vs_amostra_3,True
+18,bmi,kruskal,amostra_1_vs_amostra_2,True
+18,bmi,kruskal,amostra_1_vs_amostra_3,True
+18,bmi,kruskal,amostra_2_vs_amostra_3,True
+18,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+18,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+18,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+18,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+18,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+18,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+18,mmse,kruskal,amostra_1_vs_amostra_2,True
+18,mmse,kruskal,amostra_1_vs_amostra_3,True
+18,mmse,kruskal,amostra_2_vs_amostra_3,True
+18,adl,kruskal,amostra_1_vs_amostra_2,True
+18,adl,kruskal,amostra_1_vs_amostra_3,True
+18,adl,kruskal,amostra_2_vs_amostra_3,True
+18,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+18,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+18,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+18,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+18,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+18,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+18,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+18,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+18,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 0]"
+18,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+18,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+18,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+18,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+18,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+18,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+18,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+18,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+18,adl,pearson,amostra_3,"[1, 1, 0, 1, 1, 0]"
+18,age,shapiro,validacao,False
+18,bmi,shapiro,validacao,False
+18,systolic_bp,shapiro,validacao,False
+18,cholesterol_total,shapiro,validacao,False
+18,mmse,shapiro,validacao,False
+18,adl,shapiro,validacao,False
+18,age,kruskal,validacao_vs_amostra_1,True
+18,age,kruskal,validacao_vs_amostra_2,True
+18,age,kruskal,validacao_vs_amostra_3,True
+18,bmi,kruskal,validacao_vs_amostra_1,True
+18,bmi,kruskal,validacao_vs_amostra_2,True
+18,bmi,kruskal,validacao_vs_amostra_3,False
+18,systolic_bp,kruskal,validacao_vs_amostra_1,True
+18,systolic_bp,kruskal,validacao_vs_amostra_2,True
+18,systolic_bp,kruskal,validacao_vs_amostra_3,True
+18,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+18,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+18,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+18,mmse,kruskal,validacao_vs_amostra_1,True
+18,mmse,kruskal,validacao_vs_amostra_2,True
+18,mmse,kruskal,validacao_vs_amostra_3,True
+18,adl,kruskal,validacao_vs_amostra_1,True
+18,adl,kruskal,validacao_vs_amostra_2,True
+18,adl,kruskal,validacao_vs_amostra_3,True
+18,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+18,bmi,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+18,systolic_bp,pearson,validacao,"[1, 0, 0, 1, 1, 1]"
+18,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+18,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+18,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+19,age,shapiro,amostra_1,False
+19,age,shapiro,amostra_2,False
+19,age,shapiro,amostra_3,False
+19,bmi,shapiro,amostra_1,False
+19,bmi,shapiro,amostra_2,False
+19,bmi,shapiro,amostra_3,False
+19,systolic_bp,shapiro,amostra_1,False
+19,systolic_bp,shapiro,amostra_2,False
+19,systolic_bp,shapiro,amostra_3,False
+19,cholesterol_total,shapiro,amostra_1,False
+19,cholesterol_total,shapiro,amostra_2,False
+19,cholesterol_total,shapiro,amostra_3,False
+19,mmse,shapiro,amostra_1,False
+19,mmse,shapiro,amostra_2,False
+19,mmse,shapiro,amostra_3,False
+19,adl,shapiro,amostra_1,False
+19,adl,shapiro,amostra_2,False
+19,adl,shapiro,amostra_3,False
+19,age,kruskal,amostra_1_vs_amostra_2,True
+19,age,kruskal,amostra_1_vs_amostra_3,True
+19,age,kruskal,amostra_2_vs_amostra_3,True
+19,bmi,kruskal,amostra_1_vs_amostra_2,True
+19,bmi,kruskal,amostra_1_vs_amostra_3,True
+19,bmi,kruskal,amostra_2_vs_amostra_3,True
+19,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+19,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+19,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+19,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+19,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+19,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+19,mmse,kruskal,amostra_1_vs_amostra_2,True
+19,mmse,kruskal,amostra_1_vs_amostra_3,True
+19,mmse,kruskal,amostra_2_vs_amostra_3,True
+19,adl,kruskal,amostra_1_vs_amostra_2,True
+19,adl,kruskal,amostra_1_vs_amostra_3,True
+19,adl,kruskal,amostra_2_vs_amostra_3,True
+19,age,pearson,amostra_1,"[0, 1, 1, 0, 1, 0]"
+19,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+19,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+19,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+19,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+19,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+19,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+19,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+19,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+19,cholesterol_total,pearson,amostra_1,"[0, 1, 1, 0, 1, 1]"
+19,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+19,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+19,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+19,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+19,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 0]"
+19,adl,pearson,amostra_1,"[0, 1, 1, 1, 1, 0]"
+19,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+19,adl,pearson,amostra_3,"[1, 1, 1, 1, 0, 0]"
+19,age,shapiro,validacao,False
+19,bmi,shapiro,validacao,False
+19,systolic_bp,shapiro,validacao,False
+19,cholesterol_total,shapiro,validacao,False
+19,mmse,shapiro,validacao,False
+19,adl,shapiro,validacao,False
+19,age,kruskal,validacao_vs_amostra_1,False
+19,age,kruskal,validacao_vs_amostra_2,True
+19,age,kruskal,validacao_vs_amostra_3,True
+19,bmi,kruskal,validacao_vs_amostra_1,True
+19,bmi,kruskal,validacao_vs_amostra_2,True
+19,bmi,kruskal,validacao_vs_amostra_3,True
+19,systolic_bp,kruskal,validacao_vs_amostra_1,True
+19,systolic_bp,kruskal,validacao_vs_amostra_2,True
+19,systolic_bp,kruskal,validacao_vs_amostra_3,True
+19,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+19,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+19,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+19,mmse,kruskal,validacao_vs_amostra_1,True
+19,mmse,kruskal,validacao_vs_amostra_2,True
+19,mmse,kruskal,validacao_vs_amostra_3,True
+19,adl,kruskal,validacao_vs_amostra_1,True
+19,adl,kruskal,validacao_vs_amostra_2,True
+19,adl,kruskal,validacao_vs_amostra_3,True
+19,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+19,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+19,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+19,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+19,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 0]"
+19,adl,pearson,validacao,"[1, 1, 1, 1, 0, 0]"
+20,age,shapiro,amostra_1,False
+20,age,shapiro,amostra_2,False
+20,age,shapiro,amostra_3,False
+20,bmi,shapiro,amostra_1,False
+20,bmi,shapiro,amostra_2,False
+20,bmi,shapiro,amostra_3,False
+20,systolic_bp,shapiro,amostra_1,False
+20,systolic_bp,shapiro,amostra_2,False
+20,systolic_bp,shapiro,amostra_3,False
+20,cholesterol_total,shapiro,amostra_1,False
+20,cholesterol_total,shapiro,amostra_2,False
+20,cholesterol_total,shapiro,amostra_3,False
+20,mmse,shapiro,amostra_1,False
+20,mmse,shapiro,amostra_2,False
+20,mmse,shapiro,amostra_3,False
+20,adl,shapiro,amostra_1,False
+20,adl,shapiro,amostra_2,False
+20,adl,shapiro,amostra_3,False
+20,age,kruskal,amostra_1_vs_amostra_2,True
+20,age,kruskal,amostra_1_vs_amostra_3,True
+20,age,kruskal,amostra_2_vs_amostra_3,True
+20,bmi,kruskal,amostra_1_vs_amostra_2,True
+20,bmi,kruskal,amostra_1_vs_amostra_3,True
+20,bmi,kruskal,amostra_2_vs_amostra_3,True
+20,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+20,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+20,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+20,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+20,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+20,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+20,mmse,kruskal,amostra_1_vs_amostra_2,True
+20,mmse,kruskal,amostra_1_vs_amostra_3,True
+20,mmse,kruskal,amostra_2_vs_amostra_3,True
+20,adl,kruskal,amostra_1_vs_amostra_2,True
+20,adl,kruskal,amostra_1_vs_amostra_3,True
+20,adl,kruskal,amostra_2_vs_amostra_3,True
+20,age,pearson,amostra_1,"[0, 0, 1, 1, 1, 1]"
+20,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+20,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+20,bmi,pearson,amostra_1,"[0, 0, 1, 1, 1, 1]"
+20,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+20,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+20,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+20,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+20,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+20,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 0, 1]"
+20,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+20,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 0, 1]"
+20,mmse,pearson,amostra_1,"[1, 1, 1, 0, 0, 1]"
+20,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+20,mmse,pearson,amostra_3,"[1, 1, 1, 0, 0, 1]"
+20,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+20,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+20,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+20,age,shapiro,validacao,False
+20,bmi,shapiro,validacao,False
+20,systolic_bp,shapiro,validacao,False
+20,cholesterol_total,shapiro,validacao,False
+20,mmse,shapiro,validacao,False
+20,adl,shapiro,validacao,False
+20,age,kruskal,validacao_vs_amostra_1,True
+20,age,kruskal,validacao_vs_amostra_2,True
+20,age,kruskal,validacao_vs_amostra_3,True
+20,bmi,kruskal,validacao_vs_amostra_1,True
+20,bmi,kruskal,validacao_vs_amostra_2,True
+20,bmi,kruskal,validacao_vs_amostra_3,True
+20,systolic_bp,kruskal,validacao_vs_amostra_1,True
+20,systolic_bp,kruskal,validacao_vs_amostra_2,True
+20,systolic_bp,kruskal,validacao_vs_amostra_3,True
+20,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+20,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+20,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+20,mmse,kruskal,validacao_vs_amostra_1,True
+20,mmse,kruskal,validacao_vs_amostra_2,True
+20,mmse,kruskal,validacao_vs_amostra_3,True
+20,adl,kruskal,validacao_vs_amostra_1,True
+20,adl,kruskal,validacao_vs_amostra_2,True
+20,adl,kruskal,validacao_vs_amostra_3,True
+20,age,pearson,validacao,"[0, 0, 1, 1, 1, 0]"
+20,bmi,pearson,validacao,"[0, 0, 1, 1, 1, 1]"
+20,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+20,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+20,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+20,adl,pearson,validacao,"[0, 1, 1, 1, 1, 0]"
+21,age,shapiro,amostra_1,False
+21,age,shapiro,amostra_2,False
+21,age,shapiro,amostra_3,False
+21,bmi,shapiro,amostra_1,False
+21,bmi,shapiro,amostra_2,False
+21,bmi,shapiro,amostra_3,False
+21,systolic_bp,shapiro,amostra_1,False
+21,systolic_bp,shapiro,amostra_2,False
+21,systolic_bp,shapiro,amostra_3,False
+21,cholesterol_total,shapiro,amostra_1,False
+21,cholesterol_total,shapiro,amostra_2,False
+21,cholesterol_total,shapiro,amostra_3,False
+21,mmse,shapiro,amostra_1,False
+21,mmse,shapiro,amostra_2,False
+21,mmse,shapiro,amostra_3,False
+21,adl,shapiro,amostra_1,False
+21,adl,shapiro,amostra_2,False
+21,adl,shapiro,amostra_3,False
+21,age,kruskal,amostra_1_vs_amostra_2,True
+21,age,kruskal,amostra_1_vs_amostra_3,True
+21,age,kruskal,amostra_2_vs_amostra_3,True
+21,bmi,kruskal,amostra_1_vs_amostra_2,True
+21,bmi,kruskal,amostra_1_vs_amostra_3,True
+21,bmi,kruskal,amostra_2_vs_amostra_3,True
+21,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+21,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+21,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+21,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+21,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+21,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+21,mmse,kruskal,amostra_1_vs_amostra_2,True
+21,mmse,kruskal,amostra_1_vs_amostra_3,True
+21,mmse,kruskal,amostra_2_vs_amostra_3,True
+21,adl,kruskal,amostra_1_vs_amostra_2,True
+21,adl,kruskal,amostra_1_vs_amostra_3,True
+21,adl,kruskal,amostra_2_vs_amostra_3,True
+21,age,pearson,amostra_1,"[0, 1, 0, 1, 0, 0]"
+21,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+21,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+21,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+21,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+21,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+21,systolic_bp,pearson,amostra_1,"[0, 1, 0, 1, 1, 1]"
+21,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+21,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+21,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+21,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+21,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+21,mmse,pearson,amostra_1,"[0, 1, 1, 1, 0, 1]"
+21,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+21,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+21,adl,pearson,amostra_1,"[0, 1, 1, 1, 1, 0]"
+21,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+21,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+21,age,shapiro,validacao,False
+21,bmi,shapiro,validacao,False
+21,systolic_bp,shapiro,validacao,False
+21,cholesterol_total,shapiro,validacao,False
+21,mmse,shapiro,validacao,False
+21,adl,shapiro,validacao,False
+21,age,kruskal,validacao_vs_amostra_1,True
+21,age,kruskal,validacao_vs_amostra_2,True
+21,age,kruskal,validacao_vs_amostra_3,True
+21,bmi,kruskal,validacao_vs_amostra_1,True
+21,bmi,kruskal,validacao_vs_amostra_2,True
+21,bmi,kruskal,validacao_vs_amostra_3,True
+21,systolic_bp,kruskal,validacao_vs_amostra_1,True
+21,systolic_bp,kruskal,validacao_vs_amostra_2,True
+21,systolic_bp,kruskal,validacao_vs_amostra_3,True
+21,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+21,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+21,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+21,mmse,kruskal,validacao_vs_amostra_1,True
+21,mmse,kruskal,validacao_vs_amostra_2,True
+21,mmse,kruskal,validacao_vs_amostra_3,True
+21,adl,kruskal,validacao_vs_amostra_1,True
+21,adl,kruskal,validacao_vs_amostra_2,True
+21,adl,kruskal,validacao_vs_amostra_3,True
+21,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+21,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+21,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+21,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+21,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+21,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+22,age,shapiro,amostra_1,False
+22,age,shapiro,amostra_2,False
+22,age,shapiro,amostra_3,False
+22,bmi,shapiro,amostra_1,False
+22,bmi,shapiro,amostra_2,False
+22,bmi,shapiro,amostra_3,False
+22,systolic_bp,shapiro,amostra_1,False
+22,systolic_bp,shapiro,amostra_2,False
+22,systolic_bp,shapiro,amostra_3,False
+22,cholesterol_total,shapiro,amostra_1,False
+22,cholesterol_total,shapiro,amostra_2,False
+22,cholesterol_total,shapiro,amostra_3,False
+22,mmse,shapiro,amostra_1,False
+22,mmse,shapiro,amostra_2,False
+22,mmse,shapiro,amostra_3,False
+22,adl,shapiro,amostra_1,False
+22,adl,shapiro,amostra_2,False
+22,adl,shapiro,amostra_3,False
+22,age,kruskal,amostra_1_vs_amostra_2,True
+22,age,kruskal,amostra_1_vs_amostra_3,True
+22,age,kruskal,amostra_2_vs_amostra_3,True
+22,bmi,kruskal,amostra_1_vs_amostra_2,True
+22,bmi,kruskal,amostra_1_vs_amostra_3,True
+22,bmi,kruskal,amostra_2_vs_amostra_3,True
+22,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+22,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+22,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+22,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+22,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+22,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+22,mmse,kruskal,amostra_1_vs_amostra_2,True
+22,mmse,kruskal,amostra_1_vs_amostra_3,True
+22,mmse,kruskal,amostra_2_vs_amostra_3,True
+22,adl,kruskal,amostra_1_vs_amostra_2,True
+22,adl,kruskal,amostra_1_vs_amostra_3,True
+22,adl,kruskal,amostra_2_vs_amostra_3,True
+22,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+22,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+22,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+22,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+22,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+22,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+22,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+22,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+22,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+22,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 0, 1]"
+22,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+22,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+22,mmse,pearson,amostra_1,"[1, 1, 1, 0, 0, 1]"
+22,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+22,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+22,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+22,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+22,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+22,age,shapiro,validacao,False
+22,bmi,shapiro,validacao,False
+22,systolic_bp,shapiro,validacao,False
+22,cholesterol_total,shapiro,validacao,False
+22,mmse,shapiro,validacao,False
+22,adl,shapiro,validacao,False
+22,age,kruskal,validacao_vs_amostra_1,True
+22,age,kruskal,validacao_vs_amostra_2,True
+22,age,kruskal,validacao_vs_amostra_3,True
+22,bmi,kruskal,validacao_vs_amostra_1,True
+22,bmi,kruskal,validacao_vs_amostra_2,False
+22,bmi,kruskal,validacao_vs_amostra_3,True
+22,systolic_bp,kruskal,validacao_vs_amostra_1,True
+22,systolic_bp,kruskal,validacao_vs_amostra_2,True
+22,systolic_bp,kruskal,validacao_vs_amostra_3,True
+22,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+22,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+22,cholesterol_total,kruskal,validacao_vs_amostra_3,False
+22,mmse,kruskal,validacao_vs_amostra_1,True
+22,mmse,kruskal,validacao_vs_amostra_2,True
+22,mmse,kruskal,validacao_vs_amostra_3,True
+22,adl,kruskal,validacao_vs_amostra_1,True
+22,adl,kruskal,validacao_vs_amostra_2,True
+22,adl,kruskal,validacao_vs_amostra_3,True
+22,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+22,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+22,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+22,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+22,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+22,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+23,age,shapiro,amostra_1,False
+23,age,shapiro,amostra_2,False
+23,age,shapiro,amostra_3,False
+23,bmi,shapiro,amostra_1,False
+23,bmi,shapiro,amostra_2,False
+23,bmi,shapiro,amostra_3,False
+23,systolic_bp,shapiro,amostra_1,False
+23,systolic_bp,shapiro,amostra_2,False
+23,systolic_bp,shapiro,amostra_3,False
+23,cholesterol_total,shapiro,amostra_1,False
+23,cholesterol_total,shapiro,amostra_2,False
+23,cholesterol_total,shapiro,amostra_3,False
+23,mmse,shapiro,amostra_1,False
+23,mmse,shapiro,amostra_2,False
+23,mmse,shapiro,amostra_3,False
+23,adl,shapiro,amostra_1,False
+23,adl,shapiro,amostra_2,False
+23,adl,shapiro,amostra_3,False
+23,age,kruskal,amostra_1_vs_amostra_2,True
+23,age,kruskal,amostra_1_vs_amostra_3,True
+23,age,kruskal,amostra_2_vs_amostra_3,True
+23,bmi,kruskal,amostra_1_vs_amostra_2,True
+23,bmi,kruskal,amostra_1_vs_amostra_3,True
+23,bmi,kruskal,amostra_2_vs_amostra_3,True
+23,systolic_bp,kruskal,amostra_1_vs_amostra_2,False
+23,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+23,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+23,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+23,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+23,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+23,mmse,kruskal,amostra_1_vs_amostra_2,True
+23,mmse,kruskal,amostra_1_vs_amostra_3,True
+23,mmse,kruskal,amostra_2_vs_amostra_3,True
+23,adl,kruskal,amostra_1_vs_amostra_2,True
+23,adl,kruskal,amostra_1_vs_amostra_3,True
+23,adl,kruskal,amostra_2_vs_amostra_3,True
+23,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+23,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+23,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+23,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+23,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+23,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+23,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+23,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+23,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+23,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+23,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+23,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+23,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+23,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+23,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+23,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+23,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+23,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+23,age,shapiro,validacao,False
+23,bmi,shapiro,validacao,False
+23,systolic_bp,shapiro,validacao,False
+23,cholesterol_total,shapiro,validacao,False
+23,mmse,shapiro,validacao,False
+23,adl,shapiro,validacao,False
+23,age,kruskal,validacao_vs_amostra_1,True
+23,age,kruskal,validacao_vs_amostra_2,True
+23,age,kruskal,validacao_vs_amostra_3,True
+23,bmi,kruskal,validacao_vs_amostra_1,True
+23,bmi,kruskal,validacao_vs_amostra_2,True
+23,bmi,kruskal,validacao_vs_amostra_3,True
+23,systolic_bp,kruskal,validacao_vs_amostra_1,True
+23,systolic_bp,kruskal,validacao_vs_amostra_2,False
+23,systolic_bp,kruskal,validacao_vs_amostra_3,True
+23,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+23,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+23,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+23,mmse,kruskal,validacao_vs_amostra_1,True
+23,mmse,kruskal,validacao_vs_amostra_2,True
+23,mmse,kruskal,validacao_vs_amostra_3,True
+23,adl,kruskal,validacao_vs_amostra_1,True
+23,adl,kruskal,validacao_vs_amostra_2,True
+23,adl,kruskal,validacao_vs_amostra_3,True
+23,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+23,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 0]"
+23,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+23,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 0, 1]"
+23,mmse,pearson,validacao,"[1, 1, 1, 0, 0, 1]"
+23,adl,pearson,validacao,"[1, 0, 1, 1, 1, 0]"
+24,age,shapiro,amostra_1,False
+24,age,shapiro,amostra_2,False
+24,age,shapiro,amostra_3,False
+24,bmi,shapiro,amostra_1,False
+24,bmi,shapiro,amostra_2,False
+24,bmi,shapiro,amostra_3,False
+24,systolic_bp,shapiro,amostra_1,False
+24,systolic_bp,shapiro,amostra_2,False
+24,systolic_bp,shapiro,amostra_3,False
+24,cholesterol_total,shapiro,amostra_1,False
+24,cholesterol_total,shapiro,amostra_2,False
+24,cholesterol_total,shapiro,amostra_3,False
+24,mmse,shapiro,amostra_1,False
+24,mmse,shapiro,amostra_2,False
+24,mmse,shapiro,amostra_3,False
+24,adl,shapiro,amostra_1,False
+24,adl,shapiro,amostra_2,False
+24,adl,shapiro,amostra_3,False
+24,age,kruskal,amostra_1_vs_amostra_2,True
+24,age,kruskal,amostra_1_vs_amostra_3,True
+24,age,kruskal,amostra_2_vs_amostra_3,True
+24,bmi,kruskal,amostra_1_vs_amostra_2,True
+24,bmi,kruskal,amostra_1_vs_amostra_3,True
+24,bmi,kruskal,amostra_2_vs_amostra_3,True
+24,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+24,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+24,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+24,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+24,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+24,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+24,mmse,kruskal,amostra_1_vs_amostra_2,True
+24,mmse,kruskal,amostra_1_vs_amostra_3,True
+24,mmse,kruskal,amostra_2_vs_amostra_3,True
+24,adl,kruskal,amostra_1_vs_amostra_2,True
+24,adl,kruskal,amostra_1_vs_amostra_3,True
+24,adl,kruskal,amostra_2_vs_amostra_3,True
+24,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+24,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+24,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+24,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+24,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+24,bmi,pearson,amostra_3,"[1, 0, 0, 1, 1, 1]"
+24,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+24,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+24,systolic_bp,pearson,amostra_3,"[1, 0, 0, 1, 1, 1]"
+24,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+24,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+24,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+24,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+24,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+24,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+24,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+24,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+24,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+24,age,shapiro,validacao,False
+24,bmi,shapiro,validacao,False
+24,systolic_bp,shapiro,validacao,False
+24,cholesterol_total,shapiro,validacao,False
+24,mmse,shapiro,validacao,False
+24,adl,shapiro,validacao,False
+24,age,kruskal,validacao_vs_amostra_1,True
+24,age,kruskal,validacao_vs_amostra_2,True
+24,age,kruskal,validacao_vs_amostra_3,True
+24,bmi,kruskal,validacao_vs_amostra_1,True
+24,bmi,kruskal,validacao_vs_amostra_2,True
+24,bmi,kruskal,validacao_vs_amostra_3,True
+24,systolic_bp,kruskal,validacao_vs_amostra_1,True
+24,systolic_bp,kruskal,validacao_vs_amostra_2,True
+24,systolic_bp,kruskal,validacao_vs_amostra_3,True
+24,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+24,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+24,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+24,mmse,kruskal,validacao_vs_amostra_1,True
+24,mmse,kruskal,validacao_vs_amostra_2,True
+24,mmse,kruskal,validacao_vs_amostra_3,True
+24,adl,kruskal,validacao_vs_amostra_1,True
+24,adl,kruskal,validacao_vs_amostra_2,True
+24,adl,kruskal,validacao_vs_amostra_3,True
+24,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+24,bmi,pearson,validacao,"[1, 0, 1, 0, 1, 1]"
+24,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+24,cholesterol_total,pearson,validacao,"[1, 0, 1, 0, 1, 1]"
+24,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+24,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+25,age,shapiro,amostra_1,False
+25,age,shapiro,amostra_2,False
+25,age,shapiro,amostra_3,False
+25,bmi,shapiro,amostra_1,False
+25,bmi,shapiro,amostra_2,False
+25,bmi,shapiro,amostra_3,False
+25,systolic_bp,shapiro,amostra_1,False
+25,systolic_bp,shapiro,amostra_2,False
+25,systolic_bp,shapiro,amostra_3,False
+25,cholesterol_total,shapiro,amostra_1,False
+25,cholesterol_total,shapiro,amostra_2,False
+25,cholesterol_total,shapiro,amostra_3,False
+25,mmse,shapiro,amostra_1,False
+25,mmse,shapiro,amostra_2,False
+25,mmse,shapiro,amostra_3,False
+25,adl,shapiro,amostra_1,False
+25,adl,shapiro,amostra_2,False
+25,adl,shapiro,amostra_3,False
+25,age,kruskal,amostra_1_vs_amostra_2,True
+25,age,kruskal,amostra_1_vs_amostra_3,True
+25,age,kruskal,amostra_2_vs_amostra_3,True
+25,bmi,kruskal,amostra_1_vs_amostra_2,True
+25,bmi,kruskal,amostra_1_vs_amostra_3,True
+25,bmi,kruskal,amostra_2_vs_amostra_3,True
+25,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+25,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+25,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+25,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+25,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+25,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+25,mmse,kruskal,amostra_1_vs_amostra_2,True
+25,mmse,kruskal,amostra_1_vs_amostra_3,True
+25,mmse,kruskal,amostra_2_vs_amostra_3,True
+25,adl,kruskal,amostra_1_vs_amostra_2,True
+25,adl,kruskal,amostra_1_vs_amostra_3,True
+25,adl,kruskal,amostra_2_vs_amostra_3,True
+25,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+25,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+25,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+25,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+25,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+25,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+25,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+25,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+25,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+25,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+25,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+25,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+25,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+25,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+25,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+25,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+25,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+25,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+25,age,shapiro,validacao,False
+25,bmi,shapiro,validacao,False
+25,systolic_bp,shapiro,validacao,False
+25,cholesterol_total,shapiro,validacao,False
+25,mmse,shapiro,validacao,False
+25,adl,shapiro,validacao,False
+25,age,kruskal,validacao_vs_amostra_1,True
+25,age,kruskal,validacao_vs_amostra_2,True
+25,age,kruskal,validacao_vs_amostra_3,True
+25,bmi,kruskal,validacao_vs_amostra_1,True
+25,bmi,kruskal,validacao_vs_amostra_2,True
+25,bmi,kruskal,validacao_vs_amostra_3,True
+25,systolic_bp,kruskal,validacao_vs_amostra_1,False
+25,systolic_bp,kruskal,validacao_vs_amostra_2,True
+25,systolic_bp,kruskal,validacao_vs_amostra_3,False
+25,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+25,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+25,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+25,mmse,kruskal,validacao_vs_amostra_1,True
+25,mmse,kruskal,validacao_vs_amostra_2,True
+25,mmse,kruskal,validacao_vs_amostra_3,True
+25,adl,kruskal,validacao_vs_amostra_1,True
+25,adl,kruskal,validacao_vs_amostra_2,True
+25,adl,kruskal,validacao_vs_amostra_3,True
+25,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+25,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+25,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+25,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+25,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+25,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+26,age,shapiro,amostra_1,False
+26,age,shapiro,amostra_2,False
+26,age,shapiro,amostra_3,False
+26,bmi,shapiro,amostra_1,False
+26,bmi,shapiro,amostra_2,False
+26,bmi,shapiro,amostra_3,False
+26,systolic_bp,shapiro,amostra_1,False
+26,systolic_bp,shapiro,amostra_2,False
+26,systolic_bp,shapiro,amostra_3,False
+26,cholesterol_total,shapiro,amostra_1,False
+26,cholesterol_total,shapiro,amostra_2,False
+26,cholesterol_total,shapiro,amostra_3,False
+26,mmse,shapiro,amostra_1,False
+26,mmse,shapiro,amostra_2,False
+26,mmse,shapiro,amostra_3,False
+26,adl,shapiro,amostra_1,False
+26,adl,shapiro,amostra_2,False
+26,adl,shapiro,amostra_3,False
+26,age,kruskal,amostra_1_vs_amostra_2,True
+26,age,kruskal,amostra_1_vs_amostra_3,True
+26,age,kruskal,amostra_2_vs_amostra_3,True
+26,bmi,kruskal,amostra_1_vs_amostra_2,True
+26,bmi,kruskal,amostra_1_vs_amostra_3,True
+26,bmi,kruskal,amostra_2_vs_amostra_3,True
+26,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+26,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+26,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+26,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+26,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+26,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+26,mmse,kruskal,amostra_1_vs_amostra_2,True
+26,mmse,kruskal,amostra_1_vs_amostra_3,True
+26,mmse,kruskal,amostra_2_vs_amostra_3,True
+26,adl,kruskal,amostra_1_vs_amostra_2,True
+26,adl,kruskal,amostra_1_vs_amostra_3,True
+26,adl,kruskal,amostra_2_vs_amostra_3,True
+26,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+26,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+26,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+26,bmi,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+26,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+26,bmi,pearson,amostra_3,"[1, 0, 1, 1, 0, 1]"
+26,systolic_bp,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+26,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+26,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+26,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+26,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+26,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+26,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+26,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+26,mmse,pearson,amostra_3,"[1, 0, 1, 1, 0, 1]"
+26,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+26,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+26,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+26,age,shapiro,validacao,False
+26,bmi,shapiro,validacao,False
+26,systolic_bp,shapiro,validacao,False
+26,cholesterol_total,shapiro,validacao,False
+26,mmse,shapiro,validacao,False
+26,adl,shapiro,validacao,False
+26,age,kruskal,validacao_vs_amostra_1,False
+26,age,kruskal,validacao_vs_amostra_2,False
+26,age,kruskal,validacao_vs_amostra_3,True
+26,bmi,kruskal,validacao_vs_amostra_1,False
+26,bmi,kruskal,validacao_vs_amostra_2,True
+26,bmi,kruskal,validacao_vs_amostra_3,True
+26,systolic_bp,kruskal,validacao_vs_amostra_1,True
+26,systolic_bp,kruskal,validacao_vs_amostra_2,True
+26,systolic_bp,kruskal,validacao_vs_amostra_3,True
+26,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+26,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+26,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+26,mmse,kruskal,validacao_vs_amostra_1,True
+26,mmse,kruskal,validacao_vs_amostra_2,True
+26,mmse,kruskal,validacao_vs_amostra_3,True
+26,adl,kruskal,validacao_vs_amostra_1,True
+26,adl,kruskal,validacao_vs_amostra_2,True
+26,adl,kruskal,validacao_vs_amostra_3,True
+26,age,pearson,validacao,"[0, 1, 1, 1, 1, 0]"
+26,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+26,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+26,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+26,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+26,adl,pearson,validacao,"[0, 1, 1, 1, 1, 0]"
+27,age,shapiro,amostra_1,False
+27,age,shapiro,amostra_2,False
+27,age,shapiro,amostra_3,False
+27,bmi,shapiro,amostra_1,False
+27,bmi,shapiro,amostra_2,False
+27,bmi,shapiro,amostra_3,False
+27,systolic_bp,shapiro,amostra_1,False
+27,systolic_bp,shapiro,amostra_2,False
+27,systolic_bp,shapiro,amostra_3,False
+27,cholesterol_total,shapiro,amostra_1,False
+27,cholesterol_total,shapiro,amostra_2,False
+27,cholesterol_total,shapiro,amostra_3,False
+27,mmse,shapiro,amostra_1,False
+27,mmse,shapiro,amostra_2,False
+27,mmse,shapiro,amostra_3,False
+27,adl,shapiro,amostra_1,False
+27,adl,shapiro,amostra_2,False
+27,adl,shapiro,amostra_3,False
+27,age,kruskal,amostra_1_vs_amostra_2,True
+27,age,kruskal,amostra_1_vs_amostra_3,True
+27,age,kruskal,amostra_2_vs_amostra_3,True
+27,bmi,kruskal,amostra_1_vs_amostra_2,True
+27,bmi,kruskal,amostra_1_vs_amostra_3,False
+27,bmi,kruskal,amostra_2_vs_amostra_3,True
+27,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+27,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+27,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+27,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+27,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+27,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+27,mmse,kruskal,amostra_1_vs_amostra_2,True
+27,mmse,kruskal,amostra_1_vs_amostra_3,True
+27,mmse,kruskal,amostra_2_vs_amostra_3,True
+27,adl,kruskal,amostra_1_vs_amostra_2,True
+27,adl,kruskal,amostra_1_vs_amostra_3,True
+27,adl,kruskal,amostra_2_vs_amostra_3,True
+27,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+27,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+27,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+27,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+27,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+27,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+27,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+27,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+27,systolic_bp,pearson,amostra_3,"[1, 1, 0, 0, 1, 1]"
+27,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+27,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 0]"
+27,cholesterol_total,pearson,amostra_3,"[1, 1, 0, 0, 1, 1]"
+27,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+27,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+27,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+27,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+27,adl,pearson,amostra_2,"[1, 1, 1, 0, 1, 0]"
+27,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+27,age,shapiro,validacao,False
+27,bmi,shapiro,validacao,False
+27,systolic_bp,shapiro,validacao,False
+27,cholesterol_total,shapiro,validacao,False
+27,mmse,shapiro,validacao,False
+27,adl,shapiro,validacao,False
+27,age,kruskal,validacao_vs_amostra_1,True
+27,age,kruskal,validacao_vs_amostra_2,True
+27,age,kruskal,validacao_vs_amostra_3,True
+27,bmi,kruskal,validacao_vs_amostra_1,True
+27,bmi,kruskal,validacao_vs_amostra_2,True
+27,bmi,kruskal,validacao_vs_amostra_3,True
+27,systolic_bp,kruskal,validacao_vs_amostra_1,True
+27,systolic_bp,kruskal,validacao_vs_amostra_2,True
+27,systolic_bp,kruskal,validacao_vs_amostra_3,True
+27,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+27,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+27,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+27,mmse,kruskal,validacao_vs_amostra_1,True
+27,mmse,kruskal,validacao_vs_amostra_2,True
+27,mmse,kruskal,validacao_vs_amostra_3,True
+27,adl,kruskal,validacao_vs_amostra_1,True
+27,adl,kruskal,validacao_vs_amostra_2,True
+27,adl,kruskal,validacao_vs_amostra_3,True
+27,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+27,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+27,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+27,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+27,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+27,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+28,age,shapiro,amostra_1,False
+28,age,shapiro,amostra_2,False
+28,age,shapiro,amostra_3,False
+28,bmi,shapiro,amostra_1,False
+28,bmi,shapiro,amostra_2,False
+28,bmi,shapiro,amostra_3,False
+28,systolic_bp,shapiro,amostra_1,False
+28,systolic_bp,shapiro,amostra_2,False
+28,systolic_bp,shapiro,amostra_3,False
+28,cholesterol_total,shapiro,amostra_1,False
+28,cholesterol_total,shapiro,amostra_2,False
+28,cholesterol_total,shapiro,amostra_3,False
+28,mmse,shapiro,amostra_1,False
+28,mmse,shapiro,amostra_2,False
+28,mmse,shapiro,amostra_3,False
+28,adl,shapiro,amostra_1,False
+28,adl,shapiro,amostra_2,False
+28,adl,shapiro,amostra_3,False
+28,age,kruskal,amostra_1_vs_amostra_2,True
+28,age,kruskal,amostra_1_vs_amostra_3,True
+28,age,kruskal,amostra_2_vs_amostra_3,True
+28,bmi,kruskal,amostra_1_vs_amostra_2,True
+28,bmi,kruskal,amostra_1_vs_amostra_3,True
+28,bmi,kruskal,amostra_2_vs_amostra_3,True
+28,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+28,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+28,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+28,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+28,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+28,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+28,mmse,kruskal,amostra_1_vs_amostra_2,True
+28,mmse,kruskal,amostra_1_vs_amostra_3,True
+28,mmse,kruskal,amostra_2_vs_amostra_3,True
+28,adl,kruskal,amostra_1_vs_amostra_2,False
+28,adl,kruskal,amostra_1_vs_amostra_3,True
+28,adl,kruskal,amostra_2_vs_amostra_3,True
+28,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+28,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+28,age,pearson,amostra_3,"[0, 1, 0, 1, 1, 0]"
+28,bmi,pearson,amostra_1,"[1, 0, 1, 1, 1, 1]"
+28,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+28,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+28,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+28,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+28,systolic_bp,pearson,amostra_3,"[0, 1, 0, 1, 1, 1]"
+28,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+28,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+28,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+28,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+28,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+28,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+28,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+28,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+28,adl,pearson,amostra_3,"[0, 1, 1, 1, 1, 0]"
+28,age,shapiro,validacao,False
+28,bmi,shapiro,validacao,False
+28,systolic_bp,shapiro,validacao,False
+28,cholesterol_total,shapiro,validacao,False
+28,mmse,shapiro,validacao,False
+28,adl,shapiro,validacao,False
+28,age,kruskal,validacao_vs_amostra_1,True
+28,age,kruskal,validacao_vs_amostra_2,True
+28,age,kruskal,validacao_vs_amostra_3,True
+28,bmi,kruskal,validacao_vs_amostra_1,True
+28,bmi,kruskal,validacao_vs_amostra_2,True
+28,bmi,kruskal,validacao_vs_amostra_3,True
+28,systolic_bp,kruskal,validacao_vs_amostra_1,True
+28,systolic_bp,kruskal,validacao_vs_amostra_2,True
+28,systolic_bp,kruskal,validacao_vs_amostra_3,True
+28,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+28,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+28,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+28,mmse,kruskal,validacao_vs_amostra_1,True
+28,mmse,kruskal,validacao_vs_amostra_2,True
+28,mmse,kruskal,validacao_vs_amostra_3,True
+28,adl,kruskal,validacao_vs_amostra_1,True
+28,adl,kruskal,validacao_vs_amostra_2,True
+28,adl,kruskal,validacao_vs_amostra_3,True
+28,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+28,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+28,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+28,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+28,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+28,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
+29,age,shapiro,amostra_1,False
+29,age,shapiro,amostra_2,False
+29,age,shapiro,amostra_3,False
+29,bmi,shapiro,amostra_1,False
+29,bmi,shapiro,amostra_2,False
+29,bmi,shapiro,amostra_3,False
+29,systolic_bp,shapiro,amostra_1,False
+29,systolic_bp,shapiro,amostra_2,False
+29,systolic_bp,shapiro,amostra_3,False
+29,cholesterol_total,shapiro,amostra_1,False
+29,cholesterol_total,shapiro,amostra_2,False
+29,cholesterol_total,shapiro,amostra_3,False
+29,mmse,shapiro,amostra_1,False
+29,mmse,shapiro,amostra_2,False
+29,mmse,shapiro,amostra_3,False
+29,adl,shapiro,amostra_1,False
+29,adl,shapiro,amostra_2,False
+29,adl,shapiro,amostra_3,False
+29,age,kruskal,amostra_1_vs_amostra_2,True
+29,age,kruskal,amostra_1_vs_amostra_3,True
+29,age,kruskal,amostra_2_vs_amostra_3,True
+29,bmi,kruskal,amostra_1_vs_amostra_2,True
+29,bmi,kruskal,amostra_1_vs_amostra_3,True
+29,bmi,kruskal,amostra_2_vs_amostra_3,True
+29,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+29,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+29,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+29,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+29,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+29,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+29,mmse,kruskal,amostra_1_vs_amostra_2,False
+29,mmse,kruskal,amostra_1_vs_amostra_3,True
+29,mmse,kruskal,amostra_2_vs_amostra_3,True
+29,adl,kruskal,amostra_1_vs_amostra_2,True
+29,adl,kruskal,amostra_1_vs_amostra_3,True
+29,adl,kruskal,amostra_2_vs_amostra_3,True
+29,age,pearson,amostra_1,"[0, 0, 1, 1, 1, 1]"
+29,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+29,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+29,bmi,pearson,amostra_1,"[0, 0, 1, 1, 1, 1]"
+29,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+29,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+29,systolic_bp,pearson,amostra_1,"[1, 1, 0, 1, 1, 1]"
+29,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+29,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+29,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+29,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+29,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 0, 1]"
+29,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+29,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+29,mmse,pearson,amostra_3,"[1, 1, 1, 0, 0, 1]"
+29,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+29,adl,pearson,amostra_2,"[0, 1, 1, 1, 1, 0]"
+29,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+29,age,shapiro,validacao,False
+29,bmi,shapiro,validacao,False
+29,systolic_bp,shapiro,validacao,False
+29,cholesterol_total,shapiro,validacao,False
+29,mmse,shapiro,validacao,False
+29,adl,shapiro,validacao,False
+29,age,kruskal,validacao_vs_amostra_1,True
+29,age,kruskal,validacao_vs_amostra_2,True
+29,age,kruskal,validacao_vs_amostra_3,True
+29,bmi,kruskal,validacao_vs_amostra_1,True
+29,bmi,kruskal,validacao_vs_amostra_2,True
+29,bmi,kruskal,validacao_vs_amostra_3,True
+29,systolic_bp,kruskal,validacao_vs_amostra_1,True
+29,systolic_bp,kruskal,validacao_vs_amostra_2,True
+29,systolic_bp,kruskal,validacao_vs_amostra_3,True
+29,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+29,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+29,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+29,mmse,kruskal,validacao_vs_amostra_1,True
+29,mmse,kruskal,validacao_vs_amostra_2,True
+29,mmse,kruskal,validacao_vs_amostra_3,True
+29,adl,kruskal,validacao_vs_amostra_1,True
+29,adl,kruskal,validacao_vs_amostra_2,True
+29,adl,kruskal,validacao_vs_amostra_3,True
+29,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+29,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+29,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 0]"
+29,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+29,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+29,adl,pearson,validacao,"[1, 1, 0, 1, 1, 0]"
+30,age,shapiro,amostra_1,False
+30,age,shapiro,amostra_2,False
+30,age,shapiro,amostra_3,False
+30,bmi,shapiro,amostra_1,False
+30,bmi,shapiro,amostra_2,False
+30,bmi,shapiro,amostra_3,False
+30,systolic_bp,shapiro,amostra_1,False
+30,systolic_bp,shapiro,amostra_2,False
+30,systolic_bp,shapiro,amostra_3,False
+30,cholesterol_total,shapiro,amostra_1,False
+30,cholesterol_total,shapiro,amostra_2,False
+30,cholesterol_total,shapiro,amostra_3,False
+30,mmse,shapiro,amostra_1,False
+30,mmse,shapiro,amostra_2,False
+30,mmse,shapiro,amostra_3,False
+30,adl,shapiro,amostra_1,False
+30,adl,shapiro,amostra_2,False
+30,adl,shapiro,amostra_3,False
+30,age,kruskal,amostra_1_vs_amostra_2,True
+30,age,kruskal,amostra_1_vs_amostra_3,True
+30,age,kruskal,amostra_2_vs_amostra_3,True
+30,bmi,kruskal,amostra_1_vs_amostra_2,True
+30,bmi,kruskal,amostra_1_vs_amostra_3,True
+30,bmi,kruskal,amostra_2_vs_amostra_3,True
+30,systolic_bp,kruskal,amostra_1_vs_amostra_2,True
+30,systolic_bp,kruskal,amostra_1_vs_amostra_3,True
+30,systolic_bp,kruskal,amostra_2_vs_amostra_3,True
+30,cholesterol_total,kruskal,amostra_1_vs_amostra_2,True
+30,cholesterol_total,kruskal,amostra_1_vs_amostra_3,True
+30,cholesterol_total,kruskal,amostra_2_vs_amostra_3,True
+30,mmse,kruskal,amostra_1_vs_amostra_2,True
+30,mmse,kruskal,amostra_1_vs_amostra_3,True
+30,mmse,kruskal,amostra_2_vs_amostra_3,True
+30,adl,kruskal,amostra_1_vs_amostra_2,True
+30,adl,kruskal,amostra_1_vs_amostra_3,True
+30,adl,kruskal,amostra_2_vs_amostra_3,True
+30,age,pearson,amostra_1,"[0, 1, 1, 1, 1, 1]"
+30,age,pearson,amostra_2,"[0, 1, 1, 1, 1, 1]"
+30,age,pearson,amostra_3,"[0, 1, 1, 1, 1, 1]"
+30,bmi,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+30,bmi,pearson,amostra_2,"[1, 0, 1, 1, 1, 1]"
+30,bmi,pearson,amostra_3,"[1, 0, 1, 1, 1, 1]"
+30,systolic_bp,pearson,amostra_1,"[1, 0, 0, 1, 1, 1]"
+30,systolic_bp,pearson,amostra_2,"[1, 1, 0, 1, 1, 1]"
+30,systolic_bp,pearson,amostra_3,"[1, 1, 0, 1, 1, 1]"
+30,cholesterol_total,pearson,amostra_1,"[1, 1, 1, 0, 1, 1]"
+30,cholesterol_total,pearson,amostra_2,"[1, 1, 1, 0, 1, 1]"
+30,cholesterol_total,pearson,amostra_3,"[1, 1, 1, 0, 1, 1]"
+30,mmse,pearson,amostra_1,"[1, 1, 1, 1, 0, 1]"
+30,mmse,pearson,amostra_2,"[1, 1, 1, 1, 0, 1]"
+30,mmse,pearson,amostra_3,"[1, 1, 1, 1, 0, 1]"
+30,adl,pearson,amostra_1,"[1, 1, 1, 1, 1, 0]"
+30,adl,pearson,amostra_2,"[1, 1, 1, 1, 1, 0]"
+30,adl,pearson,amostra_3,"[1, 1, 1, 1, 1, 0]"
+30,age,shapiro,validacao,False
+30,bmi,shapiro,validacao,False
+30,systolic_bp,shapiro,validacao,False
+30,cholesterol_total,shapiro,validacao,False
+30,mmse,shapiro,validacao,False
+30,adl,shapiro,validacao,False
+30,age,kruskal,validacao_vs_amostra_1,True
+30,age,kruskal,validacao_vs_amostra_2,True
+30,age,kruskal,validacao_vs_amostra_3,True
+30,bmi,kruskal,validacao_vs_amostra_1,True
+30,bmi,kruskal,validacao_vs_amostra_2,True
+30,bmi,kruskal,validacao_vs_amostra_3,True
+30,systolic_bp,kruskal,validacao_vs_amostra_1,True
+30,systolic_bp,kruskal,validacao_vs_amostra_2,True
+30,systolic_bp,kruskal,validacao_vs_amostra_3,True
+30,cholesterol_total,kruskal,validacao_vs_amostra_1,True
+30,cholesterol_total,kruskal,validacao_vs_amostra_2,True
+30,cholesterol_total,kruskal,validacao_vs_amostra_3,True
+30,mmse,kruskal,validacao_vs_amostra_1,True
+30,mmse,kruskal,validacao_vs_amostra_2,True
+30,mmse,kruskal,validacao_vs_amostra_3,True
+30,adl,kruskal,validacao_vs_amostra_1,True
+30,adl,kruskal,validacao_vs_amostra_2,True
+30,adl,kruskal,validacao_vs_amostra_3,True
+30,age,pearson,validacao,"[0, 1, 1, 1, 1, 1]"
+30,bmi,pearson,validacao,"[1, 0, 1, 1, 1, 1]"
+30,systolic_bp,pearson,validacao,"[1, 1, 0, 1, 1, 1]"
+30,cholesterol_total,pearson,validacao,"[1, 1, 1, 0, 1, 1]"
+30,mmse,pearson,validacao,"[1, 1, 1, 1, 0, 1]"
+30,adl,pearson,validacao,"[1, 1, 1, 1, 1, 0]"
